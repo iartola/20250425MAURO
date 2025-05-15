@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.4)  14 MAY 2025 21:54
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.4)  14 MAY 2025 22:09
  restricted system commands enabled.
 **pdf-20250425MAURO.tex
 (./pdf-20250425MAURO.tex
@@ -3986,8 +3986,42 @@ LaTeX Info: Redefining \% on input line 3003.
 
 ]
 Package biblatex Info: Resetting trackers on input line 3003.
+LaTeX Info: Redefining \. on input line 3025.
+LaTeX Info: Redefining \% on input line 3025.
+LaTeX Info: Redefining \. on input line 3025.
+LaTeX Info: Redefining \% on input line 3025.
+ [175]
+LaTeX Info: Redefining \. on input line 3057.
+LaTeX Info: Redefining \% on input line 3057.
+LaTeX Info: Redefining \. on input line 3057.
+LaTeX Info: Redefining \% on input line 3057.
+ [176]
+LaTeX Info: Redefining \. on input line 3088.
+LaTeX Info: Redefining \% on input line 3088.
+LaTeX Info: Redefining \. on input line 3088.
+LaTeX Info: Redefining \% on input line 3088.
+ [177]
+LaTeX Info: Redefining \. on input line 3119.
+LaTeX Info: Redefining \% on input line 3119.
+LaTeX Info: Redefining \. on input line 3119.
+LaTeX Info: Redefining \% on input line 3119.
+ [178]
+LaTeX Info: Redefining \. on input line 3152.
+LaTeX Info: Redefining \% on input line 3152.
+LaTeX Info: Redefining \. on input line 3152.
+LaTeX Info: Redefining \% on input line 3152.
 
-
+[179]
+LaTeX Info: Redefining \. on input line 3182.
+LaTeX Info: Redefining \% on input line 3182.
+LaTeX Info: Redefining \. on input line 3182.
+LaTeX Info: Redefining \% on input line 3182.
+ [180]
+LaTeX Info: Redefining \. on input line 3212.
+LaTeX Info: Redefining \% on input line 3212.
+LaTeX Info: Redefining \. on input line 3212.
+LaTeX Info: Redefining \% on input line 3212.
+ [181] 
 AED: pageslts setting LastPage 
 LaTeX Info: Redefining \. on input line 3227.
 LaTeX Info: Redefining \% on input line 3227.
@@ -3998,7 +4032,7 @@ File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
 )
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) [175]
+) [182]
 
 Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
  found. (Remove \makenoidxglossaries if you don't want any glossaries.)
@@ -4011,7 +4045,7 @@ AED: pageslts setting VeryLastPage via AfterLastShipout
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is odd.
+Package pageslts Info: Total number of pages is even.
 
 
 (./pdf-20250425MAURO.aux
@@ -4031,18 +4065,18 @@ Package logreq Info: Writing requests to 'pdf-20250425MAURO.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 66766 strings out of 476553
- 5557893,2848258 words of node,token memory allocated
- 5426768 words of node memory still in use:
-   11063 hlist, 2 vlist, 2531 rule, 177 ins, 73863 disc, 4109 local_par, 305 mat
-h, 87214 glue, 57369 kern, 8371 penalty, 702 margin_kern, 468714 glyph, 86480 at
-tribute, 7974 glue_spec, 12366 attribute_list, 3 write, 46 pdf_literal, 147 pdf_
-start_link, 151 pdf_end_link, 341 pdf_dest, 125 pdf_action, 3607 pdf_colorstack 
+ 66773 strings out of 476553
+ 6947368,2848258 words of node,token memory allocated
+ 5623996 words of node memory still in use:
+   11303 hlist, 2 vlist, 2531 rule, 177 ins, 76558 disc, 4228 local_par, 314 mat
+h, 90210 glue, 58481 kern, 8782 penalty, 797 margin_kern, 487229 glyph, 88384 at
+tribute, 8420 glue_spec, 12638 attribute_list, 3 write, 46 pdf_literal, 159 pdf_
+start_link, 165 pdf_end_link, 341 pdf_dest, 135 pdf_action, 3633 pdf_colorstack 
 nodes
-   avail lists: 1:11,2:364,3:56,4:774,5:212,6:10,7:3496,8:136,9:100,10:31,11:496
-
+   avail lists: 1:11,2:276,3:210,4:653,5:204,6:23,7:3135,8:136,9:133,10:31,11:36
+3
  86742 multiletter control sequences out of 65536+600000
- 98 fonts using 26500331 bytes
+ 98 fonts using 26500467 bytes
  117i,7n,123p,5811b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name '_bookmark8'
@@ -4055,10 +4089,10 @@ ve/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/sha
 re/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bol
 d.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondense
 d-SemiBold.otf>
-Output written on pdf-20250425MAURO.pdf (181 pages, 685793 bytes).
+Output written on pdf-20250425MAURO.pdf (188 pages, 706805 bytes).
 
-PDF statistics: 1262 PDF objects out of 1440 (max. 8388607)
- 940 compressed objects within 10 object streams
- 338 named destinations out of 1000 (max. 131072)
+PDF statistics: 1311 PDF objects out of 1440 (max. 8388607)
+ 979 compressed objects within 10 object streams
+ 345 named destinations out of 1000 (max. 131072)
  341 words of extra memory for PDF output out of 10000 (max. 100000000)
 
