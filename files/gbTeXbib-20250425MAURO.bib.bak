@@ -185,20 +185,20 @@ address   = {Buenos Aires}
 	address   = {Barcelona}
 }
 
-@book{bourdieu2008,
-	author    = {Bourdieu, P},
-	title     = {Cuestiones de Sociología},
-	year      = {2008},
-	publisher = {Ediciones Itsmo},
-	address   = {Madrid}
+@Book{Bourdieu2008,
+  title     = {Cuestiones de Sociología},
+  publisher = {Ediciones Itsmo},
+  year      = {2008},
+  author    = {Bourdieu, P},
+  address   = {Madrid},
 }
 
-@book{bourdieu2008,
-	author    = {Bourdieu, P. y Wacquant Loïc},
-	title     = {Una invitación a la Sociología reflexiva},
-	year      = {2008},
-	publisher = {Siglo XXI Editores},
-	address   = {Buenos Aires}
+@Book{Bourdieu2008a,
+  title     = {Una invitación a la Sociología reflexiva},
+  publisher = {Siglo XXI Editores},
+  year      = {2008},
+  author    = {Bourdieu, P. y Wacquant Loïc},
+  address   = {Buenos Aires},
 }
 
 @book{bourdieu1997,
@@ -331,28 +331,22 @@ address   = {Buenos Aires}
 	address   = {Buenos Aires}
 }
 
-@book{fontevecchia2018,
-	author    = {Fontevecchia, J},
-	title     = {. Seminario “Telecomunicaciones, Medios Privados y Públicos en la era de la Convergencia”, organizado por el Sistema Federal de Medios y Contenidos Públicos y la Embajada Británica en Argentina. 05/11/18},
-	year      = {2018},
-	publisher = {},
-	address   = {}
+@Book{Fontevecchia2018,
+  title  = {Seminario “Telecomunicaciones, Medios Privados y Públicos en la era de la Convergencia”, organizado por el Sistema Federal de Medios y Contenidos Públicos y la Embajada Británica en Argentina. 05/11/18},
+  year   = {2018},
+  author = {Fontevecchia, J},
 }
 
-@book{fontevecchia2018,
-	author    = {Fontevecchia, J},
-	title     = {},
-	year      = {2018},
-	publisher = {},
-	address   = {}
+@Book{Fontevecchia2018a,
+  year   = {2018},
+  author = {Fontevecchia, J},
 }
 
-@book{unknown0000,
-	author    = {Fraga Roserndo (comp.)},
-	title     = {(1997) Autopercepción del periodismo en la Argentina},
-	year      = {1997},
-	publisher = {},
-	address   = {Buenos Aires}
+@Book{1997,
+  title   = {(1997) Autopercepción del periodismo en la Argentina},
+  year    = {1997},
+  author  = {Fraga Roserndo (comp.)},
+  address = {Buenos Aires},
 }
 
 @book{gans1979,
@@ -451,12 +445,10 @@ address   = {Buenos Aires}
 	address   = {Buenos Aires}
 }
 
-@book{unknown0000,
-	author    = {Jornet, C. y Dessein, D (Comps.)},
-	title     = {},
-	year      = {2014},
-	publisher = {},
-	address   = {Buenos Aires}
+@Book{Jornet2014,
+  year    = {2014},
+  author  = {Jornet, C. y Dessein, D (Comps.)},
+  address = {Buenos Aires},
 }
 
 @book{levinas2013,
@@ -539,12 +531,10 @@ address   = {Buenos Aires}
 	address   = {Buenos Aires}
 }
 
-@book{unknown0000,
-	author    = {Desconocido},
-	title     = {Título desconocido},
-	year      = {0000},
-	publisher = {},
-	address   = {}
+@Book{Desconocido0000,
+  title  = {Título desconocido},
+  year   = {0000},
+  author = {Desconocido},
 }
 
 @book{menesesfernández2008,
@@ -587,12 +577,11 @@ address   = {Buenos Aires}
 	address   = {Buenos Aires}
 }
 
-@book{morales2015,
-	author    = {Morales, Victor Hugo},
-	title     = {Mentime que me gusta},
-	year      = {2015},
-	publisher = {},
-	address   = {Buenos Aires}
+@Book{Morales2015,
+  title   = {Mentime que me gusta},
+  year    = {2015},
+  author  = {Morales, Victor Hugo},
+  address = {Buenos Aires},
 }
 
 @book{moyano1996,
@@ -715,12 +704,12 @@ address   = {Buenos Aires}
 	address   = {Ciudad Autónoma de Buenos Aires}
 }
 
-@book{saferstein2016,
-	author    = {Saferstein, E},
-	title     = {. “La década publicada” Los bestsellers políticos y sus editores. Producción de libros, difusión de temas e intervención pública en el mercado editorial argentino (2003-2015), Tesis de doctorado, Universidad de Buenos Aires},
-	year      = {2016},
-	publisher = {},
-	address   = {Buenos Aires}
+@PhdThesis{saferstein2016,
+  author  = {Saferstein, E},
+  title   = {“La década publicada”. Los bestsellers políticos y sus editores. Producción de libros, difusión de temas e intervención pública en el mercado editorial argentino (2003-2015)},
+  school  = {Universidad de Buenos Aires},
+  year    = {2016},
+  address = {Buenos Aires},
 }
 
 @book{schlesinger1978,
@@ -843,12 +832,11 @@ address   = {Buenos Aires}
 	address   = {Madrid}
 }
 
-@book{unknown0000,
-	author    = {Wiñazki, Miguel (comp.)},
-	title     = {(2000) Puro periodismo},
-	year      = {2000},
-	publisher = {},
-	address   = {Buenos Aires}
+@Book{Winazki2000,
+  title   = {(2000) Puro periodismo},
+  year    = {2000},
+  author  = {Wiñazki, Miguel (comp.)},
+  address = {Buenos Aires},
 }
 
 @book{wolf2004,
@@ -882,4 +870,5 @@ address   = {Buenos Aires}
 	publisher = {},
 	address   = {Buenos Aires}
 }
+
 @Comment{jabref-meta: databaseType:bibtex;}
