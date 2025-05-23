@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.4)  23 MAY 2025 11:49
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.4)  23 MAY 2025 18:55
  restricted system commands enabled.
 **pdf-20250425MAURO.tex
 (./pdf-20250425MAURO.tex
@@ -2976,7 +2976,15 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'pdf-20250425MAURO.bbl' found.
 
-(./pdf-20250425MAURO.bbl)
+(./pdf-20250425MAURO.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                clave
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 468.
 Package biblatex Info: Reference segment=0 on input line 468.
 
@@ -3117,24 +3125,6 @@ LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/b/n' will be
 (Font)              scaled to size 11.63708pt on input line 527.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
 (Font)              scaled to size 9.43994pt on input line 529.
-! Undefined control sequence.
-l.531 ...ominantes del ámbito editorial \parentcite
-                                                  {@6961-DEDIEGO2012}.Por ot...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.533 ...iales encontraron, como muestra \parentcite
-                                                  {@6962-SAFERSTEIN2016}, un...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
 (Font)              scaled to size 11.79993pt on input line 533.
 LaTeX Info: Redefining \. on input line 536.
@@ -4103,38 +4093,35 @@ LaTeX Info: Redefining \% on input line 20.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `pdf-20250425MAURO.out' has not changed.
 (rerunfilecheck)             Checksum: F91E6AE06E8CD78FF1B2AC95B696439B;1790.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                pdf-20250425MAURO
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'pdf-20250425MAURO.run.xml'.
 
 \openout1 = pdf-20250425MAURO.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 66959 strings out of 476553
- 6947450,2848258 words of node,token memory allocated
- 5624737 words of node memory still in use:
-   11372 hlist, 5 vlist, 2541 rule, 180 ins, 1 adjust, 76533 disc, 4232 local_pa
-r, 320 math, 90276 glue, 58359 kern, 8798 penalty, 799 margin_kern, 487229 glyph
-, 88524 attribute, 8396 glue_spec, 12658 attribute_list, 3 write, 46 pdf_literal
-, 161 pdf_start_link, 167 pdf_end_link, 346 pdf_dest, 136 pdf_action, 3635 pdf_c
+ 66995 strings out of 476553
+ 6947485,2848258 words of node,token memory allocated
+ 5625734 words of node memory still in use:
+   11372 hlist, 5 vlist, 2541 rule, 180 ins, 1 adjust, 76542 disc, 4232 local_pa
+r, 320 math, 90286 glue, 58361 kern, 8799 penalty, 799 margin_kern, 487264 glyph
+, 88720 attribute, 8396 glue_spec, 12686 attribute_list, 9 write, 46 pdf_literal
+, 165 pdf_start_link, 171 pdf_end_link, 346 pdf_dest, 140 pdf_action, 3643 pdf_c
 olorstack nodes
-   avail lists: 1:7,2:276,3:210,4:653,5:204,6:23,7:3135,8:136,9:133,10:31,11:363
-
- 86928 multiletter control sequences out of 65536+600000
+   avail lists: 1:15,2:276,3:210,4:654,5:204,6:23,7:3135,8:136,9:133,10:31,11:36
+3
+ 86962 multiletter control sequences out of 65536+600000
  99 fonts using 26923195 bytes
  117i,15n,123p,5811b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name '_bookmark8'
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@@6962-SAFERST
+EIN2016'
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@@6961-DEDIEGO
+2012'
 
 warning  (pdf backend): unreferenced destination with name 'Hfootnote.1'
 </usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/Libertinus
@@ -4146,10 +4133,10 @@ ve/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/sha
 re/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bol
 d.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondense
 d-SemiBold.otf>
-Output written on pdf-20250425MAURO.pdf (188 pages, 707314 bytes).
+Output written on pdf-20250425MAURO.pdf (188 pages, 707478 bytes).
 
-PDF statistics: 1310 PDF objects out of 1440 (max. 8388607)
- 978 compressed objects within 10 object streams
- 345 named destinations out of 1000 (max. 131072)
+PDF statistics: 1316 PDF objects out of 1440 (max. 8388607)
+ 982 compressed objects within 10 object streams
+ 347 named destinations out of 1000 (max. 131072)
  333 words of extra memory for PDF output out of 10000 (max. 100000000)
 
