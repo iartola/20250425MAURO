@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.4)  6 JUN 2025 16:20
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.4)  6 JUN 2025 16:27
  restricted system commands enabled.
 **pdf-20250425MAURO.tex
 (./pdf-20250425MAURO.tex
@@ -3164,8 +3164,8 @@ LaTeX Info: Redefining \% on input line 650.
 LaTeX Info: Redefining \. on input line 650.
 LaTeX Info: Redefining \% on input line 650.
  [11]
-LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
-(Font)              scaled to size 5.8862pt on input line 667.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 7.07996pt on input line 667.
 
 
 ! Package siunitx Error: Invalid number 'd'.
@@ -3173,7 +3173,7 @@ LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/n' will be
 For immediate help type H <return>.
  ...                                              
                                                   
-l.680 		La Voz del Int. & Córdoba &
+l.681 		La Voz del Int. & Córdoba &
                                    99 & 90 & 90 & 90 & 84 & 81 & 73 & 66 & 5...
 
 The input 'd' could not be parsed as a number following the format defined in
@@ -3187,7 +3187,7 @@ l \ETC.
 format_auxi:w.
 <inserted text> 
 \par 
-l.680 		La Voz del Int. & Córdoba &
+l.681 		La Voz del Int. & Córdoba &
                                    99 & 90 & 90 & 90 & 84 & 81 & 73 & 66 & 5...
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -3197,7 +3197,7 @@ you'd better type `E' or `X' now and fix your file.
 ! Missing \endgroup inserted.
 <inserted text> 
 \endgroup 
-l.680 		La Voz del Int. & Córdoba &
+l.681 		La Voz del Int. & Córdoba &
                                    99 & 90 & 90 & 90 & 84 & 81 & 73 & 66 & 5...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3211,7 +3211,7 @@ my insertion and my current dilemma will both disappear.
 For immediate help type H <return>.
  ...                                              
                                                   
-l.681 		Los Andes & Mendoza &
+l.682 		Los Andes & Mendoza &
                             83 & 78 & 77 & 73 & 68 & 65 & 57 & 52 & 49 & 43 \\
 
 The input 'e' could not be parsed as a number following the format defined in
@@ -3225,7 +3225,7 @@ l \ETC.
 format_auxi:w.
 <inserted text> 
 \par 
-l.681 		Los Andes & Mendoza &
+l.682 		Los Andes & Mendoza &
                             83 & 78 & 77 & 73 & 68 & 65 & 57 & 52 & 49 & 43 \\
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -3235,7 +3235,7 @@ you'd better type `E' or `X' now and fix your file.
 ! Missing \endgroup inserted.
 <inserted text> 
 \endgroup 
-l.681 		Los Andes & Mendoza &
+l.682 		Los Andes & Mendoza &
                             83 & 78 & 77 & 73 & 68 & 65 & 57 & 52 & 49 & 43 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3249,7 +3249,7 @@ my insertion and my current dilemma will both disappear.
 For immediate help type H <return>.
  ...                                              
                                                   
-l.686 		Diario Uno & Entre Ríos &
+l.687 		Diario Uno & Entre Ríos &
                                  36 & 38 & 22 & 34 & 30 & 28 & 26 & 26 & 25 ...
 
 The input 'E' could not be parsed as a number following the format defined in
@@ -3263,7 +3263,7 @@ l \ETC.
 format_auxi:w.
 <inserted text> 
 \par 
-l.686 		Diario Uno & Entre Ríos &
+l.687 		Diario Uno & Entre Ríos &
                                  36 & 38 & 22 & 34 & 30 & 28 & 26 & 26 & 25 ...
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -3273,7 +3273,7 @@ you'd better type `E' or `X' now and fix your file.
 ! Missing \endgroup inserted.
 <inserted text> 
 \endgroup 
-l.686 		Diario Uno & Entre Ríos &
+l.687 		Diario Uno & Entre Ríos &
                                  36 & 38 & 22 & 34 & 30 & 28 & 26 & 26 & 25 ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3281,902 +3281,905 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-LaTeX Info: Redefining \. on input line 697.
-LaTeX Info: Redefining \% on input line 697.
-LaTeX Info: Redefining \. on input line 697.
-LaTeX Info: Redefining \% on input line 697.
+LaTeX Info: Redefining \. on input line 698.
+LaTeX Info: Redefining \% on input line 698.
+LaTeX Info: Redefining \. on input line 698.
+LaTeX Info: Redefining \% on input line 698.
 [12]
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
-(Font)              scaled to size 9.81033pt on input line 701.
-LaTeX Info: Redefining \. on input line 708.
-LaTeX Info: Redefining \% on input line 708.
-LaTeX Info: Redefining \. on input line 708.
-LaTeX Info: Redefining \% on input line 708.
+(Font)              scaled to size 9.81033pt on input line 702.
+LaTeX Info: Redefining \. on input line 715.
+LaTeX Info: Redefining \% on input line 715.
+LaTeX Info: Redefining \. on input line 715.
+LaTeX Info: Redefining \% on input line 715.
  [13]
-LaTeX Info: Redefining \. on input line 726.
-LaTeX Info: Redefining \% on input line 726.
-LaTeX Info: Redefining \. on input line 726.
-LaTeX Info: Redefining \% on input line 726.
+LaTeX Info: Redefining \. on input line 730.
+LaTeX Info: Redefining \% on input line 730.
+LaTeX Info: Redefining \. on input line 730.
+LaTeX Info: Redefining \% on input line 730.
  [14]
-LaTeX Info: Redefining \. on input line 741.
-LaTeX Info: Redefining \% on input line 741.
-LaTeX Info: Redefining \. on input line 741.
-LaTeX Info: Redefining \% on input line 741.
+LaTeX Info: Redefining \. on input line 742.
+LaTeX Info: Redefining \% on input line 742.
+LaTeX Info: Redefining \. on input line 742.
+LaTeX Info: Redefining \% on input line 742.
  [15]
-LaTeX Info: Redefining \. on input line 747.
-LaTeX Info: Redefining \% on input line 747.
-LaTeX Info: Redefining \. on input line 747.
-LaTeX Info: Redefining \% on input line 747.
- [16]
-LaTeX Info: Redefining \. on input line 761.
-LaTeX Info: Redefining \% on input line 761.
-LaTeX Info: Redefining \. on input line 761.
-LaTeX Info: Redefining \% on input line 761.
+Overfull \vbox (0.80844pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 751.
+LaTeX Info: Redefining \% on input line 751.
+LaTeX Info: Redefining \. on input line 751.
+LaTeX Info: Redefining \% on input line 751.
+
+[16]
+LaTeX Info: Redefining \. on input line 765.
+LaTeX Info: Redefining \% on input line 765.
+LaTeX Info: Redefining \. on input line 765.
+LaTeX Info: Redefining \% on input line 765.
  [17]
-LaTeX Info: Redefining \. on input line 789.
-LaTeX Info: Redefining \% on input line 789.
-LaTeX Info: Redefining \. on input line 789.
-LaTeX Info: Redefining \% on input line 789.
+LaTeX Info: Redefining \. on input line 791.
+LaTeX Info: Redefining \% on input line 791.
+LaTeX Info: Redefining \. on input line 791.
+LaTeX Info: Redefining \% on input line 791.
  [18]
-LaTeX Info: Redefining \. on input line 799.
-LaTeX Info: Redefining \% on input line 799.
-LaTeX Info: Redefining \. on input line 799.
-LaTeX Info: Redefining \% on input line 799.
+LaTeX Info: Redefining \. on input line 800.
+LaTeX Info: Redefining \% on input line 800.
+LaTeX Info: Redefining \. on input line 800.
+LaTeX Info: Redefining \% on input line 800.
  [19]
-LaTeX Info: Redefining \. on input line 806.
-LaTeX Info: Redefining \% on input line 806.
-LaTeX Info: Redefining \. on input line 806.
-LaTeX Info: Redefining \% on input line 806.
+LaTeX Info: Redefining \. on input line 807.
+LaTeX Info: Redefining \% on input line 807.
+LaTeX Info: Redefining \. on input line 807.
+LaTeX Info: Redefining \% on input line 807.
  [20]
 Capítulo 2.
-Package biblatex Info: Resetting trackers on input line 806.
-LaTeX Info: Redefining \. on input line 817.
-LaTeX Info: Redefining \% on input line 817.
-LaTeX Info: Redefining \. on input line 817.
-LaTeX Info: Redefining \% on input line 817.
+Package biblatex Info: Resetting trackers on input line 807.
+LaTeX Info: Redefining \. on input line 818.
+LaTeX Info: Redefining \% on input line 818.
+LaTeX Info: Redefining \. on input line 818.
+LaTeX Info: Redefining \% on input line 818.
 [21
 
 ]
-LaTeX Info: Redefining \. on input line 825.
-LaTeX Info: Redefining \% on input line 825.
-LaTeX Info: Redefining \. on input line 825.
-LaTeX Info: Redefining \% on input line 825.
+LaTeX Info: Redefining \. on input line 826.
+LaTeX Info: Redefining \% on input line 826.
+LaTeX Info: Redefining \. on input line 826.
+LaTeX Info: Redefining \% on input line 826.
  [22]
-LaTeX Info: Redefining \. on input line 833.
-LaTeX Info: Redefining \% on input line 833.
-LaTeX Info: Redefining \. on input line 833.
-LaTeX Info: Redefining \% on input line 833.
+LaTeX Info: Redefining \. on input line 834.
+LaTeX Info: Redefining \% on input line 834.
+LaTeX Info: Redefining \. on input line 834.
+LaTeX Info: Redefining \% on input line 834.
  [23]
-LaTeX Info: Redefining \. on input line 842.
-LaTeX Info: Redefining \% on input line 842.
-LaTeX Info: Redefining \. on input line 842.
-LaTeX Info: Redefining \% on input line 842.
+LaTeX Info: Redefining \. on input line 843.
+LaTeX Info: Redefining \% on input line 843.
+LaTeX Info: Redefining \. on input line 843.
+LaTeX Info: Redefining \% on input line 843.
  [24]
-LaTeX Info: Redefining \. on input line 854.
-LaTeX Info: Redefining \% on input line 854.
-LaTeX Info: Redefining \. on input line 854.
-LaTeX Info: Redefining \% on input line 854.
+LaTeX Info: Redefining \. on input line 855.
+LaTeX Info: Redefining \% on input line 855.
+LaTeX Info: Redefining \. on input line 855.
+LaTeX Info: Redefining \% on input line 855.
  [25]
-LaTeX Info: Redefining \. on input line 870.
-LaTeX Info: Redefining \% on input line 870.
-LaTeX Info: Redefining \. on input line 870.
-LaTeX Info: Redefining \% on input line 870.
+LaTeX Info: Redefining \. on input line 871.
+LaTeX Info: Redefining \% on input line 871.
+LaTeX Info: Redefining \. on input line 871.
+LaTeX Info: Redefining \% on input line 871.
  [26]
-LaTeX Info: Redefining \. on input line 877.
-LaTeX Info: Redefining \% on input line 877.
-LaTeX Info: Redefining \. on input line 877.
-LaTeX Info: Redefining \% on input line 877.
+LaTeX Info: Redefining \. on input line 878.
+LaTeX Info: Redefining \% on input line 878.
+LaTeX Info: Redefining \. on input line 878.
+LaTeX Info: Redefining \% on input line 878.
  [27]
-LaTeX Info: Redefining \. on input line 896.
-LaTeX Info: Redefining \% on input line 896.
-LaTeX Info: Redefining \. on input line 896.
-LaTeX Info: Redefining \% on input line 896.
+LaTeX Info: Redefining \. on input line 897.
+LaTeX Info: Redefining \% on input line 897.
+LaTeX Info: Redefining \. on input line 897.
+LaTeX Info: Redefining \% on input line 897.
  [28]
-LaTeX Info: Redefining \. on input line 919.
-LaTeX Info: Redefining \% on input line 919.
-LaTeX Info: Redefining \. on input line 919.
-LaTeX Info: Redefining \% on input line 919.
+LaTeX Info: Redefining \. on input line 920.
+LaTeX Info: Redefining \% on input line 920.
+LaTeX Info: Redefining \. on input line 920.
+LaTeX Info: Redefining \% on input line 920.
  [29]
-LaTeX Info: Redefining \. on input line 931.
-LaTeX Info: Redefining \% on input line 931.
-LaTeX Info: Redefining \. on input line 931.
-LaTeX Info: Redefining \% on input line 931.
+LaTeX Info: Redefining \. on input line 932.
+LaTeX Info: Redefining \% on input line 932.
+LaTeX Info: Redefining \. on input line 932.
+LaTeX Info: Redefining \% on input line 932.
  [30]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/it' will be
-(Font)              scaled to size 11.79993pt on input line 935.
-LaTeX Info: Redefining \. on input line 947.
-LaTeX Info: Redefining \% on input line 947.
-LaTeX Info: Redefining \. on input line 947.
-LaTeX Info: Redefining \% on input line 947.
+(Font)              scaled to size 11.79993pt on input line 936.
+LaTeX Info: Redefining \. on input line 948.
+LaTeX Info: Redefining \% on input line 948.
+LaTeX Info: Redefining \. on input line 948.
+LaTeX Info: Redefining \% on input line 948.
  [31]
-LaTeX Info: Redefining \. on input line 964.
-LaTeX Info: Redefining \% on input line 964.
-LaTeX Info: Redefining \. on input line 964.
-LaTeX Info: Redefining \% on input line 964.
+LaTeX Info: Redefining \. on input line 965.
+LaTeX Info: Redefining \% on input line 965.
+LaTeX Info: Redefining \. on input line 965.
+LaTeX Info: Redefining \% on input line 965.
  [32]
-LaTeX Info: Redefining \. on input line 989.
-LaTeX Info: Redefining \% on input line 989.
-LaTeX Info: Redefining \. on input line 989.
-LaTeX Info: Redefining \% on input line 989.
+LaTeX Info: Redefining \. on input line 990.
+LaTeX Info: Redefining \% on input line 990.
+LaTeX Info: Redefining \. on input line 990.
+LaTeX Info: Redefining \% on input line 990.
  [33]
-LaTeX Info: Redefining \. on input line 996.
-LaTeX Info: Redefining \% on input line 996.
-LaTeX Info: Redefining \. on input line 996.
-LaTeX Info: Redefining \% on input line 996.
+LaTeX Info: Redefining \. on input line 997.
+LaTeX Info: Redefining \% on input line 997.
+LaTeX Info: Redefining \. on input line 997.
+LaTeX Info: Redefining \% on input line 997.
  [34]
-LaTeX Info: Redefining \. on input line 1021.
-LaTeX Info: Redefining \% on input line 1021.
-LaTeX Info: Redefining \. on input line 1021.
-LaTeX Info: Redefining \% on input line 1021.
+LaTeX Info: Redefining \. on input line 1022.
+LaTeX Info: Redefining \% on input line 1022.
+LaTeX Info: Redefining \. on input line 1022.
+LaTeX Info: Redefining \% on input line 1022.
  [35]
 Overfull \vbox (0.16118pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1034.
-LaTeX Info: Redefining \% on input line 1034.
-LaTeX Info: Redefining \. on input line 1034.
-LaTeX Info: Redefining \% on input line 1034.
+LaTeX Info: Redefining \. on input line 1035.
+LaTeX Info: Redefining \% on input line 1035.
+LaTeX Info: Redefining \. on input line 1035.
+LaTeX Info: Redefining \% on input line 1035.
 
 [36]
-LaTeX Info: Redefining \. on input line 1056.
-LaTeX Info: Redefining \% on input line 1056.
-LaTeX Info: Redefining \. on input line 1056.
-LaTeX Info: Redefining \% on input line 1056.
+LaTeX Info: Redefining \. on input line 1057.
+LaTeX Info: Redefining \% on input line 1057.
+LaTeX Info: Redefining \. on input line 1057.
+LaTeX Info: Redefining \% on input line 1057.
  [37]
-LaTeX Info: Redefining \. on input line 1067.
-LaTeX Info: Redefining \% on input line 1067.
-LaTeX Info: Redefining \. on input line 1067.
-LaTeX Info: Redefining \% on input line 1067.
+LaTeX Info: Redefining \. on input line 1068.
+LaTeX Info: Redefining \% on input line 1068.
+LaTeX Info: Redefining \. on input line 1068.
+LaTeX Info: Redefining \% on input line 1068.
  [38]
-LaTeX Info: Redefining \. on input line 1077.
-LaTeX Info: Redefining \% on input line 1077.
-LaTeX Info: Redefining \. on input line 1077.
-LaTeX Info: Redefining \% on input line 1077.
+LaTeX Info: Redefining \. on input line 1078.
+LaTeX Info: Redefining \% on input line 1078.
+LaTeX Info: Redefining \. on input line 1078.
+LaTeX Info: Redefining \% on input line 1078.
  [39]
-LaTeX Info: Redefining \. on input line 1085.
-LaTeX Info: Redefining \% on input line 1085.
-LaTeX Info: Redefining \. on input line 1085.
-LaTeX Info: Redefining \% on input line 1085.
+LaTeX Info: Redefining \. on input line 1086.
+LaTeX Info: Redefining \% on input line 1086.
+LaTeX Info: Redefining \. on input line 1086.
+LaTeX Info: Redefining \% on input line 1086.
  [40]
-LaTeX Info: Redefining \. on input line 1098.
-LaTeX Info: Redefining \% on input line 1098.
-LaTeX Info: Redefining \. on input line 1098.
-LaTeX Info: Redefining \% on input line 1098.
+LaTeX Info: Redefining \. on input line 1099.
+LaTeX Info: Redefining \% on input line 1099.
+LaTeX Info: Redefining \. on input line 1099.
+LaTeX Info: Redefining \% on input line 1099.
  [41]
 Overfull \vbox (0.46121pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1115.
-LaTeX Info: Redefining \% on input line 1115.
-LaTeX Info: Redefining \. on input line 1115.
-LaTeX Info: Redefining \% on input line 1115.
+LaTeX Info: Redefining \. on input line 1116.
+LaTeX Info: Redefining \% on input line 1116.
+LaTeX Info: Redefining \. on input line 1116.
+LaTeX Info: Redefining \% on input line 1116.
 
 [42]
-LaTeX Info: Redefining \. on input line 1125.
-LaTeX Info: Redefining \% on input line 1125.
-LaTeX Info: Redefining \. on input line 1125.
-LaTeX Info: Redefining \% on input line 1125.
+LaTeX Info: Redefining \. on input line 1126.
+LaTeX Info: Redefining \% on input line 1126.
+LaTeX Info: Redefining \. on input line 1126.
+LaTeX Info: Redefining \% on input line 1126.
  [43]
-LaTeX Info: Redefining \. on input line 1131.
-LaTeX Info: Redefining \% on input line 1131.
-LaTeX Info: Redefining \. on input line 1131.
-LaTeX Info: Redefining \% on input line 1131.
+LaTeX Info: Redefining \. on input line 1132.
+LaTeX Info: Redefining \% on input line 1132.
+LaTeX Info: Redefining \. on input line 1132.
+LaTeX Info: Redefining \% on input line 1132.
  [44]
-LaTeX Info: Redefining \. on input line 1131.
-LaTeX Info: Redefining \% on input line 1131.
-LaTeX Info: Redefining \. on input line 1131.
-LaTeX Info: Redefining \% on input line 1131.
+LaTeX Info: Redefining \. on input line 1132.
+LaTeX Info: Redefining \% on input line 1132.
+LaTeX Info: Redefining \. on input line 1132.
+LaTeX Info: Redefining \% on input line 1132.
  [45
 
 ] [46
 
 ]
 Capítulo 3.
-Package biblatex Info: Resetting trackers on input line 1131.
-LaTeX Info: Redefining \. on input line 1141.
-LaTeX Info: Redefining \% on input line 1141.
-LaTeX Info: Redefining \. on input line 1141.
-LaTeX Info: Redefining \% on input line 1141.
+Package biblatex Info: Resetting trackers on input line 1132.
+LaTeX Info: Redefining \. on input line 1142.
+LaTeX Info: Redefining \% on input line 1142.
+LaTeX Info: Redefining \. on input line 1142.
+LaTeX Info: Redefining \% on input line 1142.
 [47]
-LaTeX Info: Redefining \. on input line 1152.
-LaTeX Info: Redefining \% on input line 1152.
-LaTeX Info: Redefining \. on input line 1152.
-LaTeX Info: Redefining \% on input line 1152.
+LaTeX Info: Redefining \. on input line 1153.
+LaTeX Info: Redefining \% on input line 1153.
+LaTeX Info: Redefining \. on input line 1153.
+LaTeX Info: Redefining \% on input line 1153.
  [48]
-LaTeX Info: Redefining \. on input line 1165.
-LaTeX Info: Redefining \% on input line 1165.
-LaTeX Info: Redefining \. on input line 1165.
-LaTeX Info: Redefining \% on input line 1165.
+LaTeX Info: Redefining \. on input line 1166.
+LaTeX Info: Redefining \% on input line 1166.
+LaTeX Info: Redefining \. on input line 1166.
+LaTeX Info: Redefining \% on input line 1166.
  [49]
-LaTeX Info: Redefining \. on input line 1186.
-LaTeX Info: Redefining \% on input line 1186.
-LaTeX Info: Redefining \. on input line 1186.
-LaTeX Info: Redefining \% on input line 1186.
+LaTeX Info: Redefining \. on input line 1187.
+LaTeX Info: Redefining \% on input line 1187.
+LaTeX Info: Redefining \. on input line 1187.
+LaTeX Info: Redefining \% on input line 1187.
  [50]
-LaTeX Info: Redefining \. on input line 1199.
-LaTeX Info: Redefining \% on input line 1199.
-LaTeX Info: Redefining \. on input line 1199.
-LaTeX Info: Redefining \% on input line 1199.
+LaTeX Info: Redefining \. on input line 1200.
+LaTeX Info: Redefining \% on input line 1200.
+LaTeX Info: Redefining \. on input line 1200.
+LaTeX Info: Redefining \% on input line 1200.
  [51]
-LaTeX Info: Redefining \. on input line 1209.
-LaTeX Info: Redefining \% on input line 1209.
-LaTeX Info: Redefining \. on input line 1209.
-LaTeX Info: Redefining \% on input line 1209.
+LaTeX Info: Redefining \. on input line 1210.
+LaTeX Info: Redefining \% on input line 1210.
+LaTeX Info: Redefining \. on input line 1210.
+LaTeX Info: Redefining \% on input line 1210.
  [52]
-LaTeX Info: Redefining \. on input line 1217.
-LaTeX Info: Redefining \% on input line 1217.
-LaTeX Info: Redefining \. on input line 1217.
-LaTeX Info: Redefining \% on input line 1217.
+LaTeX Info: Redefining \. on input line 1218.
+LaTeX Info: Redefining \% on input line 1218.
+LaTeX Info: Redefining \. on input line 1218.
+LaTeX Info: Redefining \% on input line 1218.
  [53]
-LaTeX Info: Redefining \. on input line 1258.
-LaTeX Info: Redefining \% on input line 1258.
-LaTeX Info: Redefining \. on input line 1258.
-LaTeX Info: Redefining \% on input line 1258.
+LaTeX Info: Redefining \. on input line 1259.
+LaTeX Info: Redefining \% on input line 1259.
+LaTeX Info: Redefining \. on input line 1259.
+LaTeX Info: Redefining \% on input line 1259.
  [54]
-LaTeX Info: Redefining \. on input line 1287.
-LaTeX Info: Redefining \% on input line 1287.
-LaTeX Info: Redefining \. on input line 1287.
-LaTeX Info: Redefining \% on input line 1287.
+LaTeX Info: Redefining \. on input line 1288.
+LaTeX Info: Redefining \% on input line 1288.
+LaTeX Info: Redefining \. on input line 1288.
+LaTeX Info: Redefining \% on input line 1288.
  [55]
-LaTeX Info: Redefining \. on input line 1307.
-LaTeX Info: Redefining \% on input line 1307.
-LaTeX Info: Redefining \. on input line 1307.
-LaTeX Info: Redefining \% on input line 1307.
+LaTeX Info: Redefining \. on input line 1308.
+LaTeX Info: Redefining \% on input line 1308.
+LaTeX Info: Redefining \. on input line 1308.
+LaTeX Info: Redefining \% on input line 1308.
  [56]
-LaTeX Info: Redefining \. on input line 1321.
-LaTeX Info: Redefining \% on input line 1321.
-LaTeX Info: Redefining \. on input line 1321.
-LaTeX Info: Redefining \% on input line 1321.
+LaTeX Info: Redefining \. on input line 1322.
+LaTeX Info: Redefining \% on input line 1322.
+LaTeX Info: Redefining \. on input line 1322.
+LaTeX Info: Redefining \% on input line 1322.
  [57]
-LaTeX Info: Redefining \. on input line 1335.
-LaTeX Info: Redefining \% on input line 1335.
-LaTeX Info: Redefining \. on input line 1335.
-LaTeX Info: Redefining \% on input line 1335.
+LaTeX Info: Redefining \. on input line 1336.
+LaTeX Info: Redefining \% on input line 1336.
+LaTeX Info: Redefining \. on input line 1336.
+LaTeX Info: Redefining \% on input line 1336.
  [58]
-LaTeX Info: Redefining \. on input line 1335.
-LaTeX Info: Redefining \% on input line 1335.
-LaTeX Info: Redefining \. on input line 1335.
-LaTeX Info: Redefining \% on input line 1335.
+LaTeX Info: Redefining \. on input line 1336.
+LaTeX Info: Redefining \% on input line 1336.
+LaTeX Info: Redefining \. on input line 1336.
+LaTeX Info: Redefining \% on input line 1336.
  [59] [60
 
 ]
 Capítulo 4.
-Package biblatex Info: Resetting trackers on input line 1335.
+Package biblatex Info: Resetting trackers on input line 1336.
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
-(Font)              scaled to size 16.95224pt on input line 1335.
-LaTeX Info: Redefining \. on input line 1456.
-LaTeX Info: Redefining \% on input line 1456.
-LaTeX Info: Redefining \. on input line 1456.
-LaTeX Info: Redefining \% on input line 1456.
+(Font)              scaled to size 16.95224pt on input line 1336.
+LaTeX Info: Redefining \. on input line 1457.
+LaTeX Info: Redefining \% on input line 1457.
+LaTeX Info: Redefining \. on input line 1457.
+LaTeX Info: Redefining \% on input line 1457.
 [61]
-LaTeX Info: Redefining \. on input line 1470.
-LaTeX Info: Redefining \% on input line 1470.
-LaTeX Info: Redefining \. on input line 1470.
-LaTeX Info: Redefining \% on input line 1470.
+LaTeX Info: Redefining \. on input line 1471.
+LaTeX Info: Redefining \% on input line 1471.
+LaTeX Info: Redefining \. on input line 1471.
+LaTeX Info: Redefining \% on input line 1471.
  [62
 Missing character: There is no ʹ (U+02B9) in font [IBMPlexSansCondensed-Italic.
 otf]:mode=node;script=latn;language=dflt;+tlig;!
 ]
-LaTeX Info: Redefining \. on input line 1485.
-LaTeX Info: Redefining \% on input line 1485.
-LaTeX Info: Redefining \. on input line 1485.
-LaTeX Info: Redefining \% on input line 1485.
+LaTeX Info: Redefining \. on input line 1486.
+LaTeX Info: Redefining \% on input line 1486.
+LaTeX Info: Redefining \. on input line 1486.
+LaTeX Info: Redefining \% on input line 1486.
  [63]
-LaTeX Info: Redefining \. on input line 1491.
-LaTeX Info: Redefining \% on input line 1491.
-LaTeX Info: Redefining \. on input line 1491.
-LaTeX Info: Redefining \% on input line 1491.
+LaTeX Info: Redefining \. on input line 1492.
+LaTeX Info: Redefining \% on input line 1492.
+LaTeX Info: Redefining \. on input line 1492.
+LaTeX Info: Redefining \% on input line 1492.
  [64]
-LaTeX Info: Redefining \. on input line 1505.
-LaTeX Info: Redefining \% on input line 1505.
-LaTeX Info: Redefining \. on input line 1505.
-LaTeX Info: Redefining \% on input line 1505.
+LaTeX Info: Redefining \. on input line 1506.
+LaTeX Info: Redefining \% on input line 1506.
+LaTeX Info: Redefining \. on input line 1506.
+LaTeX Info: Redefining \% on input line 1506.
  [65]
 Overfull \vbox (0.20837pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1526.
-LaTeX Info: Redefining \% on input line 1526.
-LaTeX Info: Redefining \. on input line 1526.
-LaTeX Info: Redefining \% on input line 1526.
+LaTeX Info: Redefining \. on input line 1527.
+LaTeX Info: Redefining \% on input line 1527.
+LaTeX Info: Redefining \. on input line 1527.
+LaTeX Info: Redefining \% on input line 1527.
 
 [66]
-LaTeX Info: Redefining \. on input line 1538.
-LaTeX Info: Redefining \% on input line 1538.
-LaTeX Info: Redefining \. on input line 1538.
-LaTeX Info: Redefining \% on input line 1538.
+LaTeX Info: Redefining \. on input line 1539.
+LaTeX Info: Redefining \% on input line 1539.
+LaTeX Info: Redefining \. on input line 1539.
+LaTeX Info: Redefining \% on input line 1539.
  [67]
-LaTeX Info: Redefining \. on input line 1552.
-LaTeX Info: Redefining \% on input line 1552.
-LaTeX Info: Redefining \. on input line 1552.
-LaTeX Info: Redefining \% on input line 1552.
+LaTeX Info: Redefining \. on input line 1553.
+LaTeX Info: Redefining \% on input line 1553.
+LaTeX Info: Redefining \. on input line 1553.
+LaTeX Info: Redefining \% on input line 1553.
  [68]
-LaTeX Info: Redefining \. on input line 1562.
-LaTeX Info: Redefining \% on input line 1562.
-LaTeX Info: Redefining \. on input line 1562.
-LaTeX Info: Redefining \% on input line 1562.
+LaTeX Info: Redefining \. on input line 1563.
+LaTeX Info: Redefining \% on input line 1563.
+LaTeX Info: Redefining \. on input line 1563.
+LaTeX Info: Redefining \% on input line 1563.
  [69]
-LaTeX Info: Redefining \. on input line 1580.
-LaTeX Info: Redefining \% on input line 1580.
-LaTeX Info: Redefining \. on input line 1580.
-LaTeX Info: Redefining \% on input line 1580.
+LaTeX Info: Redefining \. on input line 1581.
+LaTeX Info: Redefining \% on input line 1581.
+LaTeX Info: Redefining \. on input line 1581.
+LaTeX Info: Redefining \% on input line 1581.
  [70]
-LaTeX Info: Redefining \. on input line 1592.
-LaTeX Info: Redefining \% on input line 1592.
-LaTeX Info: Redefining \. on input line 1592.
-LaTeX Info: Redefining \% on input line 1592.
+LaTeX Info: Redefining \. on input line 1593.
+LaTeX Info: Redefining \% on input line 1593.
+LaTeX Info: Redefining \. on input line 1593.
+LaTeX Info: Redefining \% on input line 1593.
  [71]
-LaTeX Info: Redefining \. on input line 1608.
-LaTeX Info: Redefining \% on input line 1608.
-LaTeX Info: Redefining \. on input line 1608.
-LaTeX Info: Redefining \% on input line 1608.
+LaTeX Info: Redefining \. on input line 1609.
+LaTeX Info: Redefining \% on input line 1609.
+LaTeX Info: Redefining \. on input line 1609.
+LaTeX Info: Redefining \% on input line 1609.
  [72]
-LaTeX Info: Redefining \. on input line 1623.
-LaTeX Info: Redefining \% on input line 1623.
-LaTeX Info: Redefining \. on input line 1623.
-LaTeX Info: Redefining \% on input line 1623.
+LaTeX Info: Redefining \. on input line 1624.
+LaTeX Info: Redefining \% on input line 1624.
+LaTeX Info: Redefining \. on input line 1624.
+LaTeX Info: Redefining \% on input line 1624.
  [73]
-LaTeX Info: Redefining \. on input line 1633.
-LaTeX Info: Redefining \% on input line 1633.
-LaTeX Info: Redefining \. on input line 1633.
-LaTeX Info: Redefining \% on input line 1633.
+LaTeX Info: Redefining \. on input line 1634.
+LaTeX Info: Redefining \% on input line 1634.
+LaTeX Info: Redefining \. on input line 1634.
+LaTeX Info: Redefining \% on input line 1634.
  [74]
-LaTeX Info: Redefining \. on input line 1650.
-LaTeX Info: Redefining \% on input line 1650.
-LaTeX Info: Redefining \. on input line 1650.
-LaTeX Info: Redefining \% on input line 1650.
+LaTeX Info: Redefining \. on input line 1651.
+LaTeX Info: Redefining \% on input line 1651.
+LaTeX Info: Redefining \. on input line 1651.
+LaTeX Info: Redefining \% on input line 1651.
  [75]
-LaTeX Info: Redefining \. on input line 1662.
-LaTeX Info: Redefining \% on input line 1662.
-LaTeX Info: Redefining \. on input line 1662.
-LaTeX Info: Redefining \% on input line 1662.
+LaTeX Info: Redefining \. on input line 1663.
+LaTeX Info: Redefining \% on input line 1663.
+LaTeX Info: Redefining \. on input line 1663.
+LaTeX Info: Redefining \% on input line 1663.
  [76]
-LaTeX Info: Redefining \. on input line 1682.
-LaTeX Info: Redefining \% on input line 1682.
-LaTeX Info: Redefining \. on input line 1682.
-LaTeX Info: Redefining \% on input line 1682.
+LaTeX Info: Redefining \. on input line 1683.
+LaTeX Info: Redefining \% on input line 1683.
+LaTeX Info: Redefining \. on input line 1683.
+LaTeX Info: Redefining \% on input line 1683.
  [77]
-LaTeX Info: Redefining \. on input line 1691.
-LaTeX Info: Redefining \% on input line 1691.
-LaTeX Info: Redefining \. on input line 1691.
-LaTeX Info: Redefining \% on input line 1691.
+LaTeX Info: Redefining \. on input line 1692.
+LaTeX Info: Redefining \% on input line 1692.
+LaTeX Info: Redefining \. on input line 1692.
+LaTeX Info: Redefining \% on input line 1692.
  [78]
-LaTeX Info: Redefining \. on input line 1705.
-LaTeX Info: Redefining \% on input line 1705.
-LaTeX Info: Redefining \. on input line 1705.
-LaTeX Info: Redefining \% on input line 1705.
+LaTeX Info: Redefining \. on input line 1706.
+LaTeX Info: Redefining \% on input line 1706.
+LaTeX Info: Redefining \. on input line 1706.
+LaTeX Info: Redefining \% on input line 1706.
  [79]
-LaTeX Info: Redefining \. on input line 1721.
-LaTeX Info: Redefining \% on input line 1721.
-LaTeX Info: Redefining \. on input line 1721.
-LaTeX Info: Redefining \% on input line 1721.
+LaTeX Info: Redefining \. on input line 1722.
+LaTeX Info: Redefining \% on input line 1722.
+LaTeX Info: Redefining \. on input line 1722.
+LaTeX Info: Redefining \% on input line 1722.
  [80]
-LaTeX Info: Redefining \. on input line 1728.
-LaTeX Info: Redefining \% on input line 1728.
-LaTeX Info: Redefining \. on input line 1728.
-LaTeX Info: Redefining \% on input line 1728.
+LaTeX Info: Redefining \. on input line 1729.
+LaTeX Info: Redefining \% on input line 1729.
+LaTeX Info: Redefining \. on input line 1729.
+LaTeX Info: Redefining \% on input line 1729.
 
 [81]
-LaTeX Info: Redefining \. on input line 1739.
-LaTeX Info: Redefining \% on input line 1739.
-LaTeX Info: Redefining \. on input line 1739.
-LaTeX Info: Redefining \% on input line 1739.
+LaTeX Info: Redefining \. on input line 1740.
+LaTeX Info: Redefining \% on input line 1740.
+LaTeX Info: Redefining \. on input line 1740.
+LaTeX Info: Redefining \% on input line 1740.
  [82]
-LaTeX Info: Redefining \. on input line 1751.
-LaTeX Info: Redefining \% on input line 1751.
-LaTeX Info: Redefining \. on input line 1751.
-LaTeX Info: Redefining \% on input line 1751.
+LaTeX Info: Redefining \. on input line 1752.
+LaTeX Info: Redefining \% on input line 1752.
+LaTeX Info: Redefining \. on input line 1752.
+LaTeX Info: Redefining \% on input line 1752.
  [83]
-LaTeX Info: Redefining \. on input line 1760.
-LaTeX Info: Redefining \% on input line 1760.
-LaTeX Info: Redefining \. on input line 1760.
-LaTeX Info: Redefining \% on input line 1760.
+LaTeX Info: Redefining \. on input line 1761.
+LaTeX Info: Redefining \% on input line 1761.
+LaTeX Info: Redefining \. on input line 1761.
+LaTeX Info: Redefining \% on input line 1761.
  [84]
-LaTeX Info: Redefining \. on input line 1769.
-LaTeX Info: Redefining \% on input line 1769.
-LaTeX Info: Redefining \. on input line 1769.
-LaTeX Info: Redefining \% on input line 1769.
+LaTeX Info: Redefining \. on input line 1770.
+LaTeX Info: Redefining \% on input line 1770.
+LaTeX Info: Redefining \. on input line 1770.
+LaTeX Info: Redefining \% on input line 1770.
  [85]
-LaTeX Info: Redefining \. on input line 1785.
-LaTeX Info: Redefining \% on input line 1785.
-LaTeX Info: Redefining \. on input line 1785.
-LaTeX Info: Redefining \% on input line 1785.
+LaTeX Info: Redefining \. on input line 1786.
+LaTeX Info: Redefining \% on input line 1786.
+LaTeX Info: Redefining \. on input line 1786.
+LaTeX Info: Redefining \% on input line 1786.
  [86]
-LaTeX Info: Redefining \. on input line 1802.
-LaTeX Info: Redefining \% on input line 1802.
-LaTeX Info: Redefining \. on input line 1802.
-LaTeX Info: Redefining \% on input line 1802.
+LaTeX Info: Redefining \. on input line 1803.
+LaTeX Info: Redefining \% on input line 1803.
+LaTeX Info: Redefining \. on input line 1803.
+LaTeX Info: Redefining \% on input line 1803.
  [87]
-LaTeX Info: Redefining \. on input line 1818.
-LaTeX Info: Redefining \% on input line 1818.
-LaTeX Info: Redefining \. on input line 1818.
-LaTeX Info: Redefining \% on input line 1818.
+LaTeX Info: Redefining \. on input line 1819.
+LaTeX Info: Redefining \% on input line 1819.
+LaTeX Info: Redefining \. on input line 1819.
+LaTeX Info: Redefining \% on input line 1819.
  [88]
-LaTeX Info: Redefining \. on input line 1824.
-LaTeX Info: Redefining \% on input line 1824.
-LaTeX Info: Redefining \. on input line 1824.
-LaTeX Info: Redefining \% on input line 1824.
+LaTeX Info: Redefining \. on input line 1825.
+LaTeX Info: Redefining \% on input line 1825.
+LaTeX Info: Redefining \. on input line 1825.
+LaTeX Info: Redefining \% on input line 1825.
  [89]
-LaTeX Info: Redefining \. on input line 1832.
-LaTeX Info: Redefining \% on input line 1832.
-LaTeX Info: Redefining \. on input line 1832.
-LaTeX Info: Redefining \% on input line 1832.
+LaTeX Info: Redefining \. on input line 1833.
+LaTeX Info: Redefining \% on input line 1833.
+LaTeX Info: Redefining \. on input line 1833.
+LaTeX Info: Redefining \% on input line 1833.
  [90]
-LaTeX Info: Redefining \. on input line 1844.
-LaTeX Info: Redefining \% on input line 1844.
-LaTeX Info: Redefining \. on input line 1844.
-LaTeX Info: Redefining \% on input line 1844.
+LaTeX Info: Redefining \. on input line 1845.
+LaTeX Info: Redefining \% on input line 1845.
+LaTeX Info: Redefining \. on input line 1845.
+LaTeX Info: Redefining \% on input line 1845.
  [91]
-LaTeX Info: Redefining \. on input line 1860.
-LaTeX Info: Redefining \% on input line 1860.
-LaTeX Info: Redefining \. on input line 1860.
-LaTeX Info: Redefining \% on input line 1860.
+LaTeX Info: Redefining \. on input line 1861.
+LaTeX Info: Redefining \% on input line 1861.
+LaTeX Info: Redefining \. on input line 1861.
+LaTeX Info: Redefining \% on input line 1861.
  [92]
-LaTeX Info: Redefining \. on input line 1885.
-LaTeX Info: Redefining \% on input line 1885.
-LaTeX Info: Redefining \. on input line 1885.
-LaTeX Info: Redefining \% on input line 1885.
+LaTeX Info: Redefining \. on input line 1886.
+LaTeX Info: Redefining \% on input line 1886.
+LaTeX Info: Redefining \. on input line 1886.
+LaTeX Info: Redefining \% on input line 1886.
  [93]
-LaTeX Info: Redefining \. on input line 1900.
-LaTeX Info: Redefining \% on input line 1900.
-LaTeX Info: Redefining \. on input line 1900.
-LaTeX Info: Redefining \% on input line 1900.
+LaTeX Info: Redefining \. on input line 1901.
+LaTeX Info: Redefining \% on input line 1901.
+LaTeX Info: Redefining \. on input line 1901.
+LaTeX Info: Redefining \% on input line 1901.
  [94]
-LaTeX Info: Redefining \. on input line 1904.
-LaTeX Info: Redefining \% on input line 1904.
-LaTeX Info: Redefining \. on input line 1904.
-LaTeX Info: Redefining \% on input line 1904.
+LaTeX Info: Redefining \. on input line 1905.
+LaTeX Info: Redefining \% on input line 1905.
+LaTeX Info: Redefining \. on input line 1905.
+LaTeX Info: Redefining \% on input line 1905.
  [95]
-LaTeX Info: Redefining \. on input line 1924.
-LaTeX Info: Redefining \% on input line 1924.
-LaTeX Info: Redefining \. on input line 1924.
-LaTeX Info: Redefining \% on input line 1924.
+LaTeX Info: Redefining \. on input line 1925.
+LaTeX Info: Redefining \% on input line 1925.
+LaTeX Info: Redefining \. on input line 1925.
+LaTeX Info: Redefining \% on input line 1925.
 
 [96]
-LaTeX Info: Redefining \. on input line 1938.
-LaTeX Info: Redefining \% on input line 1938.
-LaTeX Info: Redefining \. on input line 1938.
-LaTeX Info: Redefining \% on input line 1938.
+LaTeX Info: Redefining \. on input line 1939.
+LaTeX Info: Redefining \% on input line 1939.
+LaTeX Info: Redefining \. on input line 1939.
+LaTeX Info: Redefining \% on input line 1939.
  [97]
-LaTeX Info: Redefining \. on input line 1952.
-LaTeX Info: Redefining \% on input line 1952.
-LaTeX Info: Redefining \. on input line 1952.
-LaTeX Info: Redefining \% on input line 1952.
+LaTeX Info: Redefining \. on input line 1953.
+LaTeX Info: Redefining \% on input line 1953.
+LaTeX Info: Redefining \. on input line 1953.
+LaTeX Info: Redefining \% on input line 1953.
  [98]
-LaTeX Info: Redefining \. on input line 1964.
-LaTeX Info: Redefining \% on input line 1964.
-LaTeX Info: Redefining \. on input line 1964.
-LaTeX Info: Redefining \% on input line 1964.
+LaTeX Info: Redefining \. on input line 1965.
+LaTeX Info: Redefining \% on input line 1965.
+LaTeX Info: Redefining \. on input line 1965.
+LaTeX Info: Redefining \% on input line 1965.
  [99]
-LaTeX Info: Redefining \. on input line 1976.
-LaTeX Info: Redefining \% on input line 1976.
-LaTeX Info: Redefining \. on input line 1976.
-LaTeX Info: Redefining \% on input line 1976.
+LaTeX Info: Redefining \. on input line 1977.
+LaTeX Info: Redefining \% on input line 1977.
+LaTeX Info: Redefining \. on input line 1977.
+LaTeX Info: Redefining \% on input line 1977.
  [100]
-LaTeX Info: Redefining \. on input line 1982.
-LaTeX Info: Redefining \% on input line 1982.
-LaTeX Info: Redefining \. on input line 1982.
-LaTeX Info: Redefining \% on input line 1982.
+LaTeX Info: Redefining \. on input line 1983.
+LaTeX Info: Redefining \% on input line 1983.
+LaTeX Info: Redefining \. on input line 1983.
+LaTeX Info: Redefining \% on input line 1983.
  [101]
-LaTeX Info: Redefining \. on input line 1995.
-LaTeX Info: Redefining \% on input line 1995.
-LaTeX Info: Redefining \. on input line 1995.
-LaTeX Info: Redefining \% on input line 1995.
+LaTeX Info: Redefining \. on input line 1996.
+LaTeX Info: Redefining \% on input line 1996.
+LaTeX Info: Redefining \. on input line 1996.
+LaTeX Info: Redefining \% on input line 1996.
  [102]
-LaTeX Info: Redefining \. on input line 2006.
-LaTeX Info: Redefining \% on input line 2006.
-LaTeX Info: Redefining \. on input line 2006.
-LaTeX Info: Redefining \% on input line 2006.
+LaTeX Info: Redefining \. on input line 2007.
+LaTeX Info: Redefining \% on input line 2007.
+LaTeX Info: Redefining \. on input line 2007.
+LaTeX Info: Redefining \% on input line 2007.
  [103]
-LaTeX Info: Redefining \. on input line 2018.
-LaTeX Info: Redefining \% on input line 2018.
-LaTeX Info: Redefining \. on input line 2018.
-LaTeX Info: Redefining \% on input line 2018.
+LaTeX Info: Redefining \. on input line 2019.
+LaTeX Info: Redefining \% on input line 2019.
+LaTeX Info: Redefining \. on input line 2019.
+LaTeX Info: Redefining \% on input line 2019.
  [104]
-LaTeX Info: Redefining \. on input line 2028.
-LaTeX Info: Redefining \% on input line 2028.
-LaTeX Info: Redefining \. on input line 2028.
-LaTeX Info: Redefining \% on input line 2028.
+LaTeX Info: Redefining \. on input line 2029.
+LaTeX Info: Redefining \% on input line 2029.
+LaTeX Info: Redefining \. on input line 2029.
+LaTeX Info: Redefining \% on input line 2029.
  [105]
-LaTeX Info: Redefining \. on input line 2036.
-LaTeX Info: Redefining \% on input line 2036.
-LaTeX Info: Redefining \. on input line 2036.
-LaTeX Info: Redefining \% on input line 2036.
+LaTeX Info: Redefining \. on input line 2037.
+LaTeX Info: Redefining \% on input line 2037.
+LaTeX Info: Redefining \. on input line 2037.
+LaTeX Info: Redefining \% on input line 2037.
  [106]
-LaTeX Info: Redefining \. on input line 2036.
-LaTeX Info: Redefining \% on input line 2036.
-LaTeX Info: Redefining \. on input line 2036.
-LaTeX Info: Redefining \% on input line 2036.
+LaTeX Info: Redefining \. on input line 2037.
+LaTeX Info: Redefining \% on input line 2037.
+LaTeX Info: Redefining \. on input line 2037.
+LaTeX Info: Redefining \% on input line 2037.
  [107]
-LaTeX Info: Redefining \. on input line 2048.
-LaTeX Info: Redefining \% on input line 2048.
-LaTeX Info: Redefining \. on input line 2048.
-LaTeX Info: Redefining \% on input line 2048.
+LaTeX Info: Redefining \. on input line 2049.
+LaTeX Info: Redefining \% on input line 2049.
+LaTeX Info: Redefining \. on input line 2049.
+LaTeX Info: Redefining \% on input line 2049.
  [108]
-LaTeX Info: Redefining \. on input line 2063.
-LaTeX Info: Redefining \% on input line 2063.
-LaTeX Info: Redefining \. on input line 2063.
-LaTeX Info: Redefining \% on input line 2063.
+LaTeX Info: Redefining \. on input line 2064.
+LaTeX Info: Redefining \% on input line 2064.
+LaTeX Info: Redefining \. on input line 2064.
+LaTeX Info: Redefining \% on input line 2064.
 
 [109]
-LaTeX Info: Redefining \. on input line 2074.
-LaTeX Info: Redefining \% on input line 2074.
-LaTeX Info: Redefining \. on input line 2074.
-LaTeX Info: Redefining \% on input line 2074.
+LaTeX Info: Redefining \. on input line 2075.
+LaTeX Info: Redefining \% on input line 2075.
+LaTeX Info: Redefining \. on input line 2075.
+LaTeX Info: Redefining \% on input line 2075.
  [110]
-LaTeX Info: Redefining \. on input line 2082.
-LaTeX Info: Redefining \% on input line 2082.
-LaTeX Info: Redefining \. on input line 2082.
-LaTeX Info: Redefining \% on input line 2082.
+LaTeX Info: Redefining \. on input line 2083.
+LaTeX Info: Redefining \% on input line 2083.
+LaTeX Info: Redefining \. on input line 2083.
+LaTeX Info: Redefining \% on input line 2083.
  [111]
-LaTeX Info: Redefining \. on input line 2106.
-LaTeX Info: Redefining \% on input line 2106.
-LaTeX Info: Redefining \. on input line 2106.
-LaTeX Info: Redefining \% on input line 2106.
+LaTeX Info: Redefining \. on input line 2107.
+LaTeX Info: Redefining \% on input line 2107.
+LaTeX Info: Redefining \. on input line 2107.
+LaTeX Info: Redefining \% on input line 2107.
  [112]
-LaTeX Info: Redefining \. on input line 2120.
-LaTeX Info: Redefining \% on input line 2120.
-LaTeX Info: Redefining \. on input line 2120.
-LaTeX Info: Redefining \% on input line 2120.
+LaTeX Info: Redefining \. on input line 2121.
+LaTeX Info: Redefining \% on input line 2121.
+LaTeX Info: Redefining \. on input line 2121.
+LaTeX Info: Redefining \% on input line 2121.
  [113]
-LaTeX Info: Redefining \. on input line 2132.
-LaTeX Info: Redefining \% on input line 2132.
-LaTeX Info: Redefining \. on input line 2132.
-LaTeX Info: Redefining \% on input line 2132.
+LaTeX Info: Redefining \. on input line 2133.
+LaTeX Info: Redefining \% on input line 2133.
+LaTeX Info: Redefining \. on input line 2133.
+LaTeX Info: Redefining \% on input line 2133.
  [114]
-LaTeX Info: Redefining \. on input line 2138.
-LaTeX Info: Redefining \% on input line 2138.
-LaTeX Info: Redefining \. on input line 2138.
-LaTeX Info: Redefining \% on input line 2138.
+LaTeX Info: Redefining \. on input line 2139.
+LaTeX Info: Redefining \% on input line 2139.
+LaTeX Info: Redefining \. on input line 2139.
+LaTeX Info: Redefining \% on input line 2139.
  [115]
-LaTeX Info: Redefining \. on input line 2162.
-LaTeX Info: Redefining \% on input line 2162.
-LaTeX Info: Redefining \. on input line 2162.
-LaTeX Info: Redefining \% on input line 2162.
+LaTeX Info: Redefining \. on input line 2163.
+LaTeX Info: Redefining \% on input line 2163.
+LaTeX Info: Redefining \. on input line 2163.
+LaTeX Info: Redefining \% on input line 2163.
  [116]
-LaTeX Info: Redefining \. on input line 2174.
-LaTeX Info: Redefining \% on input line 2174.
-LaTeX Info: Redefining \. on input line 2174.
-LaTeX Info: Redefining \% on input line 2174.
+LaTeX Info: Redefining \. on input line 2175.
+LaTeX Info: Redefining \% on input line 2175.
+LaTeX Info: Redefining \. on input line 2175.
+LaTeX Info: Redefining \% on input line 2175.
  [117]
-LaTeX Info: Redefining \. on input line 2192.
-LaTeX Info: Redefining \% on input line 2192.
-LaTeX Info: Redefining \. on input line 2192.
-LaTeX Info: Redefining \% on input line 2192.
+LaTeX Info: Redefining \. on input line 2193.
+LaTeX Info: Redefining \% on input line 2193.
+LaTeX Info: Redefining \. on input line 2193.
+LaTeX Info: Redefining \% on input line 2193.
  [118]
-LaTeX Info: Redefining \. on input line 2206.
-LaTeX Info: Redefining \% on input line 2206.
-LaTeX Info: Redefining \. on input line 2206.
-LaTeX Info: Redefining \% on input line 2206.
+LaTeX Info: Redefining \. on input line 2207.
+LaTeX Info: Redefining \% on input line 2207.
+LaTeX Info: Redefining \. on input line 2207.
+LaTeX Info: Redefining \% on input line 2207.
  [119]
-LaTeX Info: Redefining \. on input line 2222.
-LaTeX Info: Redefining \% on input line 2222.
-LaTeX Info: Redefining \. on input line 2222.
-LaTeX Info: Redefining \% on input line 2222.
+LaTeX Info: Redefining \. on input line 2223.
+LaTeX Info: Redefining \% on input line 2223.
+LaTeX Info: Redefining \. on input line 2223.
+LaTeX Info: Redefining \% on input line 2223.
  [120]
-LaTeX Info: Redefining \. on input line 2233.
-LaTeX Info: Redefining \% on input line 2233.
-LaTeX Info: Redefining \. on input line 2233.
-LaTeX Info: Redefining \% on input line 2233.
+LaTeX Info: Redefining \. on input line 2234.
+LaTeX Info: Redefining \% on input line 2234.
+LaTeX Info: Redefining \. on input line 2234.
+LaTeX Info: Redefining \% on input line 2234.
 
 [121]
-LaTeX Info: Redefining \. on input line 2250.
-LaTeX Info: Redefining \% on input line 2250.
-LaTeX Info: Redefining \. on input line 2250.
-LaTeX Info: Redefining \% on input line 2250.
+LaTeX Info: Redefining \. on input line 2251.
+LaTeX Info: Redefining \% on input line 2251.
+LaTeX Info: Redefining \. on input line 2251.
+LaTeX Info: Redefining \% on input line 2251.
  [122]
-LaTeX Info: Redefining \. on input line 2264.
-LaTeX Info: Redefining \% on input line 2264.
-LaTeX Info: Redefining \. on input line 2264.
-LaTeX Info: Redefining \% on input line 2264.
+LaTeX Info: Redefining \. on input line 2265.
+LaTeX Info: Redefining \% on input line 2265.
+LaTeX Info: Redefining \. on input line 2265.
+LaTeX Info: Redefining \% on input line 2265.
  [123]
-LaTeX Info: Redefining \. on input line 2281.
-LaTeX Info: Redefining \% on input line 2281.
-LaTeX Info: Redefining \. on input line 2281.
-LaTeX Info: Redefining \% on input line 2281.
+LaTeX Info: Redefining \. on input line 2282.
+LaTeX Info: Redefining \% on input line 2282.
+LaTeX Info: Redefining \. on input line 2282.
+LaTeX Info: Redefining \% on input line 2282.
  [124]
-LaTeX Info: Redefining \. on input line 2288.
-LaTeX Info: Redefining \% on input line 2288.
-LaTeX Info: Redefining \. on input line 2288.
-LaTeX Info: Redefining \% on input line 2288.
+LaTeX Info: Redefining \. on input line 2289.
+LaTeX Info: Redefining \% on input line 2289.
+LaTeX Info: Redefining \. on input line 2289.
+LaTeX Info: Redefining \% on input line 2289.
  [125]
-LaTeX Info: Redefining \. on input line 2294.
-LaTeX Info: Redefining \% on input line 2294.
-LaTeX Info: Redefining \. on input line 2294.
-LaTeX Info: Redefining \% on input line 2294.
+LaTeX Info: Redefining \. on input line 2295.
+LaTeX Info: Redefining \% on input line 2295.
+LaTeX Info: Redefining \. on input line 2295.
+LaTeX Info: Redefining \% on input line 2295.
  [126]
-LaTeX Info: Redefining \. on input line 2307.
-LaTeX Info: Redefining \% on input line 2307.
-LaTeX Info: Redefining \. on input line 2307.
-LaTeX Info: Redefining \% on input line 2307.
+LaTeX Info: Redefining \. on input line 2308.
+LaTeX Info: Redefining \% on input line 2308.
+LaTeX Info: Redefining \. on input line 2308.
+LaTeX Info: Redefining \% on input line 2308.
  [127]
-LaTeX Info: Redefining \. on input line 2322.
-LaTeX Info: Redefining \% on input line 2322.
-LaTeX Info: Redefining \. on input line 2322.
-LaTeX Info: Redefining \% on input line 2322.
+LaTeX Info: Redefining \. on input line 2323.
+LaTeX Info: Redefining \% on input line 2323.
+LaTeX Info: Redefining \. on input line 2323.
+LaTeX Info: Redefining \% on input line 2323.
  [128]
-LaTeX Info: Redefining \. on input line 2340.
-LaTeX Info: Redefining \% on input line 2340.
-LaTeX Info: Redefining \. on input line 2340.
-LaTeX Info: Redefining \% on input line 2340.
+LaTeX Info: Redefining \. on input line 2341.
+LaTeX Info: Redefining \% on input line 2341.
+LaTeX Info: Redefining \. on input line 2341.
+LaTeX Info: Redefining \% on input line 2341.
  [129]
-LaTeX Info: Redefining \. on input line 2352.
-LaTeX Info: Redefining \% on input line 2352.
-LaTeX Info: Redefining \. on input line 2352.
-LaTeX Info: Redefining \% on input line 2352.
+LaTeX Info: Redefining \. on input line 2353.
+LaTeX Info: Redefining \% on input line 2353.
+LaTeX Info: Redefining \. on input line 2353.
+LaTeX Info: Redefining \% on input line 2353.
  [130]
-LaTeX Info: Redefining \. on input line 2358.
-LaTeX Info: Redefining \% on input line 2358.
-LaTeX Info: Redefining \. on input line 2358.
-LaTeX Info: Redefining \% on input line 2358.
+LaTeX Info: Redefining \. on input line 2359.
+LaTeX Info: Redefining \% on input line 2359.
+LaTeX Info: Redefining \. on input line 2359.
+LaTeX Info: Redefining \% on input line 2359.
  [131]
-LaTeX Info: Redefining \. on input line 2364.
-LaTeX Info: Redefining \% on input line 2364.
-LaTeX Info: Redefining \. on input line 2364.
-LaTeX Info: Redefining \% on input line 2364.
+LaTeX Info: Redefining \. on input line 2365.
+LaTeX Info: Redefining \% on input line 2365.
+LaTeX Info: Redefining \. on input line 2365.
+LaTeX Info: Redefining \% on input line 2365.
  [132]
-LaTeX Info: Redefining \. on input line 2382.
-LaTeX Info: Redefining \% on input line 2382.
-LaTeX Info: Redefining \. on input line 2382.
-LaTeX Info: Redefining \% on input line 2382.
+LaTeX Info: Redefining \. on input line 2383.
+LaTeX Info: Redefining \% on input line 2383.
+LaTeX Info: Redefining \. on input line 2383.
+LaTeX Info: Redefining \% on input line 2383.
 
 [133]
-LaTeX Info: Redefining \. on input line 2399.
-LaTeX Info: Redefining \% on input line 2399.
-LaTeX Info: Redefining \. on input line 2399.
-LaTeX Info: Redefining \% on input line 2399.
+LaTeX Info: Redefining \. on input line 2400.
+LaTeX Info: Redefining \% on input line 2400.
+LaTeX Info: Redefining \. on input line 2400.
+LaTeX Info: Redefining \% on input line 2400.
  [134]
-LaTeX Info: Redefining \. on input line 2404.
-LaTeX Info: Redefining \% on input line 2404.
-LaTeX Info: Redefining \. on input line 2404.
-LaTeX Info: Redefining \% on input line 2404.
+LaTeX Info: Redefining \. on input line 2405.
+LaTeX Info: Redefining \% on input line 2405.
+LaTeX Info: Redefining \. on input line 2405.
+LaTeX Info: Redefining \% on input line 2405.
  [135]
-LaTeX Info: Redefining \. on input line 2428.
-LaTeX Info: Redefining \% on input line 2428.
-LaTeX Info: Redefining \. on input line 2428.
-LaTeX Info: Redefining \% on input line 2428.
+LaTeX Info: Redefining \. on input line 2429.
+LaTeX Info: Redefining \% on input line 2429.
+LaTeX Info: Redefining \. on input line 2429.
+LaTeX Info: Redefining \% on input line 2429.
  [136]
-LaTeX Info: Redefining \. on input line 2448.
-LaTeX Info: Redefining \% on input line 2448.
-LaTeX Info: Redefining \. on input line 2448.
-LaTeX Info: Redefining \% on input line 2448.
+LaTeX Info: Redefining \. on input line 2449.
+LaTeX Info: Redefining \% on input line 2449.
+LaTeX Info: Redefining \. on input line 2449.
+LaTeX Info: Redefining \% on input line 2449.
  [137]
-LaTeX Info: Redefining \. on input line 2456.
-LaTeX Info: Redefining \% on input line 2456.
-LaTeX Info: Redefining \. on input line 2456.
-LaTeX Info: Redefining \% on input line 2456.
+LaTeX Info: Redefining \. on input line 2457.
+LaTeX Info: Redefining \% on input line 2457.
+LaTeX Info: Redefining \. on input line 2457.
+LaTeX Info: Redefining \% on input line 2457.
  [138]
-LaTeX Info: Redefining \. on input line 2474.
-LaTeX Info: Redefining \% on input line 2474.
-LaTeX Info: Redefining \. on input line 2474.
-LaTeX Info: Redefining \% on input line 2474.
+LaTeX Info: Redefining \. on input line 2475.
+LaTeX Info: Redefining \% on input line 2475.
+LaTeX Info: Redefining \. on input line 2475.
+LaTeX Info: Redefining \% on input line 2475.
  [139]
-LaTeX Info: Redefining \. on input line 2486.
-LaTeX Info: Redefining \% on input line 2486.
-LaTeX Info: Redefining \. on input line 2486.
-LaTeX Info: Redefining \% on input line 2486.
+LaTeX Info: Redefining \. on input line 2487.
+LaTeX Info: Redefining \% on input line 2487.
+LaTeX Info: Redefining \. on input line 2487.
+LaTeX Info: Redefining \% on input line 2487.
  [140]
-LaTeX Info: Redefining \. on input line 2498.
-LaTeX Info: Redefining \% on input line 2498.
-LaTeX Info: Redefining \. on input line 2498.
-LaTeX Info: Redefining \% on input line 2498.
+LaTeX Info: Redefining \. on input line 2499.
+LaTeX Info: Redefining \% on input line 2499.
+LaTeX Info: Redefining \. on input line 2499.
+LaTeX Info: Redefining \% on input line 2499.
  [141]
-LaTeX Info: Redefining \. on input line 2507.
-LaTeX Info: Redefining \% on input line 2507.
-LaTeX Info: Redefining \. on input line 2507.
-LaTeX Info: Redefining \% on input line 2507.
+LaTeX Info: Redefining \. on input line 2508.
+LaTeX Info: Redefining \% on input line 2508.
+LaTeX Info: Redefining \. on input line 2508.
+LaTeX Info: Redefining \% on input line 2508.
  [142]
-LaTeX Info: Redefining \. on input line 2512.
-LaTeX Info: Redefining \% on input line 2512.
-LaTeX Info: Redefining \. on input line 2512.
-LaTeX Info: Redefining \% on input line 2512.
+LaTeX Info: Redefining \. on input line 2513.
+LaTeX Info: Redefining \% on input line 2513.
+LaTeX Info: Redefining \. on input line 2513.
+LaTeX Info: Redefining \% on input line 2513.
  [143]
-LaTeX Info: Redefining \. on input line 2522.
-LaTeX Info: Redefining \% on input line 2522.
-LaTeX Info: Redefining \. on input line 2522.
-LaTeX Info: Redefining \% on input line 2522.
+LaTeX Info: Redefining \. on input line 2523.
+LaTeX Info: Redefining \% on input line 2523.
+LaTeX Info: Redefining \. on input line 2523.
+LaTeX Info: Redefining \% on input line 2523.
  [144]
-LaTeX Info: Redefining \. on input line 2534.
-LaTeX Info: Redefining \% on input line 2534.
-LaTeX Info: Redefining \. on input line 2534.
-LaTeX Info: Redefining \% on input line 2534.
+LaTeX Info: Redefining \. on input line 2535.
+LaTeX Info: Redefining \% on input line 2535.
+LaTeX Info: Redefining \. on input line 2535.
+LaTeX Info: Redefining \% on input line 2535.
 
 [145]
-LaTeX Info: Redefining \. on input line 2540.
-LaTeX Info: Redefining \% on input line 2540.
-LaTeX Info: Redefining \. on input line 2540.
-LaTeX Info: Redefining \% on input line 2540.
+LaTeX Info: Redefining \. on input line 2541.
+LaTeX Info: Redefining \% on input line 2541.
+LaTeX Info: Redefining \. on input line 2541.
+LaTeX Info: Redefining \% on input line 2541.
  [146]
-LaTeX Info: Redefining \. on input line 2549.
-LaTeX Info: Redefining \% on input line 2549.
-LaTeX Info: Redefining \. on input line 2549.
-LaTeX Info: Redefining \% on input line 2549.
+LaTeX Info: Redefining \. on input line 2550.
+LaTeX Info: Redefining \% on input line 2550.
+LaTeX Info: Redefining \. on input line 2550.
+LaTeX Info: Redefining \% on input line 2550.
  [147]
-LaTeX Info: Redefining \. on input line 2565.
-LaTeX Info: Redefining \% on input line 2565.
-LaTeX Info: Redefining \. on input line 2565.
-LaTeX Info: Redefining \% on input line 2565.
+LaTeX Info: Redefining \. on input line 2566.
+LaTeX Info: Redefining \% on input line 2566.
+LaTeX Info: Redefining \. on input line 2566.
+LaTeX Info: Redefining \% on input line 2566.
  [148]
-LaTeX Info: Redefining \. on input line 2572.
-LaTeX Info: Redefining \% on input line 2572.
-LaTeX Info: Redefining \. on input line 2572.
-LaTeX Info: Redefining \% on input line 2572.
+LaTeX Info: Redefining \. on input line 2573.
+LaTeX Info: Redefining \% on input line 2573.
+LaTeX Info: Redefining \. on input line 2573.
+LaTeX Info: Redefining \% on input line 2573.
  [149]
-LaTeX Info: Redefining \. on input line 2584.
-LaTeX Info: Redefining \% on input line 2584.
-LaTeX Info: Redefining \. on input line 2584.
-LaTeX Info: Redefining \% on input line 2584.
+LaTeX Info: Redefining \. on input line 2585.
+LaTeX Info: Redefining \% on input line 2585.
+LaTeX Info: Redefining \. on input line 2585.
+LaTeX Info: Redefining \% on input line 2585.
  [150]
-LaTeX Info: Redefining \. on input line 2596.
-LaTeX Info: Redefining \% on input line 2596.
-LaTeX Info: Redefining \. on input line 2596.
-LaTeX Info: Redefining \% on input line 2596.
+LaTeX Info: Redefining \. on input line 2597.
+LaTeX Info: Redefining \% on input line 2597.
+LaTeX Info: Redefining \. on input line 2597.
+LaTeX Info: Redefining \% on input line 2597.
  [151]
-LaTeX Info: Redefining \. on input line 2608.
-LaTeX Info: Redefining \% on input line 2608.
-LaTeX Info: Redefining \. on input line 2608.
-LaTeX Info: Redefining \% on input line 2608.
+LaTeX Info: Redefining \. on input line 2609.
+LaTeX Info: Redefining \% on input line 2609.
+LaTeX Info: Redefining \. on input line 2609.
+LaTeX Info: Redefining \% on input line 2609.
  [152]
-LaTeX Info: Redefining \. on input line 2608.
-LaTeX Info: Redefining \% on input line 2608.
-LaTeX Info: Redefining \. on input line 2608.
-LaTeX Info: Redefining \% on input line 2608.
+LaTeX Info: Redefining \. on input line 2609.
+LaTeX Info: Redefining \% on input line 2609.
+LaTeX Info: Redefining \. on input line 2609.
+LaTeX Info: Redefining \% on input line 2609.
  [153]
-LaTeX Info: Redefining \. on input line 2622.
-LaTeX Info: Redefining \% on input line 2622.
-LaTeX Info: Redefining \. on input line 2622.
-LaTeX Info: Redefining \% on input line 2622.
+LaTeX Info: Redefining \. on input line 2623.
+LaTeX Info: Redefining \% on input line 2623.
+LaTeX Info: Redefining \. on input line 2623.
+LaTeX Info: Redefining \% on input line 2623.
  [154]
-LaTeX Info: Redefining \. on input line 2636.
-LaTeX Info: Redefining \% on input line 2636.
-LaTeX Info: Redefining \. on input line 2636.
-LaTeX Info: Redefining \% on input line 2636.
+LaTeX Info: Redefining \. on input line 2637.
+LaTeX Info: Redefining \% on input line 2637.
+LaTeX Info: Redefining \. on input line 2637.
+LaTeX Info: Redefining \% on input line 2637.
  [155]
-LaTeX Info: Redefining \. on input line 2646.
-LaTeX Info: Redefining \% on input line 2646.
-LaTeX Info: Redefining \. on input line 2646.
-LaTeX Info: Redefining \% on input line 2646.
+LaTeX Info: Redefining \. on input line 2647.
+LaTeX Info: Redefining \% on input line 2647.
+LaTeX Info: Redefining \. on input line 2647.
+LaTeX Info: Redefining \% on input line 2647.
  [156]
-LaTeX Info: Redefining \. on input line 2658.
-LaTeX Info: Redefining \% on input line 2658.
-LaTeX Info: Redefining \. on input line 2658.
-LaTeX Info: Redefining \% on input line 2658.
+LaTeX Info: Redefining \. on input line 2659.
+LaTeX Info: Redefining \% on input line 2659.
+LaTeX Info: Redefining \. on input line 2659.
+LaTeX Info: Redefining \% on input line 2659.
 
 [157]
-LaTeX Info: Redefining \. on input line 2666.
-LaTeX Info: Redefining \% on input line 2666.
-LaTeX Info: Redefining \. on input line 2666.
-LaTeX Info: Redefining \% on input line 2666.
+LaTeX Info: Redefining \. on input line 2667.
+LaTeX Info: Redefining \% on input line 2667.
+LaTeX Info: Redefining \. on input line 2667.
+LaTeX Info: Redefining \% on input line 2667.
  [158]
-LaTeX Info: Redefining \. on input line 2682.
-LaTeX Info: Redefining \% on input line 2682.
-LaTeX Info: Redefining \. on input line 2682.
-LaTeX Info: Redefining \% on input line 2682.
+LaTeX Info: Redefining \. on input line 2683.
+LaTeX Info: Redefining \% on input line 2683.
+LaTeX Info: Redefining \. on input line 2683.
+LaTeX Info: Redefining \% on input line 2683.
  [159]
-LaTeX Info: Redefining \. on input line 2686.
-LaTeX Info: Redefining \% on input line 2686.
-LaTeX Info: Redefining \. on input line 2686.
-LaTeX Info: Redefining \% on input line 2686.
+LaTeX Info: Redefining \. on input line 2687.
+LaTeX Info: Redefining \% on input line 2687.
+LaTeX Info: Redefining \. on input line 2687.
+LaTeX Info: Redefining \% on input line 2687.
  [160]
-Package biblatex Info: Resetting trackers on input line 2687.
-LaTeX Info: Redefining \. on input line 2696.
-LaTeX Info: Redefining \% on input line 2696.
-LaTeX Info: Redefining \. on input line 2696.
-LaTeX Info: Redefining \% on input line 2696.
+Package biblatex Info: Resetting trackers on input line 2688.
+LaTeX Info: Redefining \. on input line 2697.
+LaTeX Info: Redefining \% on input line 2697.
+LaTeX Info: Redefining \. on input line 2697.
+LaTeX Info: Redefining \% on input line 2697.
  [161
 
 
 ]
-LaTeX Info: Redefining \. on input line 2703.
-LaTeX Info: Redefining \% on input line 2703.
-LaTeX Info: Redefining \. on input line 2703.
-LaTeX Info: Redefining \% on input line 2703.
+LaTeX Info: Redefining \. on input line 2704.
+LaTeX Info: Redefining \% on input line 2704.
+LaTeX Info: Redefining \. on input line 2704.
+LaTeX Info: Redefining \% on input line 2704.
  [162]
-LaTeX Info: Redefining \. on input line 2715.
-LaTeX Info: Redefining \% on input line 2715.
-LaTeX Info: Redefining \. on input line 2715.
-LaTeX Info: Redefining \% on input line 2715.
+LaTeX Info: Redefining \. on input line 2716.
+LaTeX Info: Redefining \% on input line 2716.
+LaTeX Info: Redefining \. on input line 2716.
+LaTeX Info: Redefining \% on input line 2716.
  [163]
-LaTeX Info: Redefining \. on input line 2725.
-LaTeX Info: Redefining \% on input line 2725.
-LaTeX Info: Redefining \. on input line 2725.
-LaTeX Info: Redefining \% on input line 2725.
+LaTeX Info: Redefining \. on input line 2726.
+LaTeX Info: Redefining \% on input line 2726.
+LaTeX Info: Redefining \. on input line 2726.
+LaTeX Info: Redefining \% on input line 2726.
  [164]
-LaTeX Info: Redefining \. on input line 2732.
-LaTeX Info: Redefining \% on input line 2732.
-LaTeX Info: Redefining \. on input line 2732.
-LaTeX Info: Redefining \% on input line 2732.
+LaTeX Info: Redefining \. on input line 2733.
+LaTeX Info: Redefining \% on input line 2733.
+LaTeX Info: Redefining \. on input line 2733.
+LaTeX Info: Redefining \% on input line 2733.
  [165]
-LaTeX Info: Redefining \. on input line 2737.
-LaTeX Info: Redefining \% on input line 2737.
-LaTeX Info: Redefining \. on input line 2737.
-LaTeX Info: Redefining \% on input line 2737.
+LaTeX Info: Redefining \. on input line 2738.
+LaTeX Info: Redefining \% on input line 2738.
+LaTeX Info: Redefining \. on input line 2738.
+LaTeX Info: Redefining \% on input line 2738.
  [166]
-LaTeX Info: Redefining \. on input line 2749.
-LaTeX Info: Redefining \% on input line 2749.
-LaTeX Info: Redefining \. on input line 2749.
-LaTeX Info: Redefining \% on input line 2749.
+LaTeX Info: Redefining \. on input line 2750.
+LaTeX Info: Redefining \% on input line 2750.
+LaTeX Info: Redefining \. on input line 2750.
+LaTeX Info: Redefining \% on input line 2750.
  [167]
-LaTeX Info: Redefining \. on input line 2767.
-LaTeX Info: Redefining \% on input line 2767.
-LaTeX Info: Redefining \. on input line 2767.
-LaTeX Info: Redefining \% on input line 2767.
+LaTeX Info: Redefining \. on input line 2768.
+LaTeX Info: Redefining \% on input line 2768.
+LaTeX Info: Redefining \. on input line 2768.
+LaTeX Info: Redefining \% on input line 2768.
  [168]
-LaTeX Info: Redefining \. on input line 2780.
-LaTeX Info: Redefining \% on input line 2780.
-LaTeX Info: Redefining \. on input line 2780.
-LaTeX Info: Redefining \% on input line 2780.
+LaTeX Info: Redefining \. on input line 2781.
+LaTeX Info: Redefining \% on input line 2781.
+LaTeX Info: Redefining \. on input line 2781.
+LaTeX Info: Redefining \% on input line 2781.
 
 [169]
-LaTeX Info: Redefining \. on input line 2792.
-LaTeX Info: Redefining \% on input line 2792.
-LaTeX Info: Redefining \. on input line 2792.
-LaTeX Info: Redefining \% on input line 2792.
+LaTeX Info: Redefining \. on input line 2793.
+LaTeX Info: Redefining \% on input line 2793.
+LaTeX Info: Redefining \. on input line 2793.
+LaTeX Info: Redefining \% on input line 2793.
  [170]
-LaTeX Info: Redefining \. on input line 2808.
-LaTeX Info: Redefining \% on input line 2808.
-LaTeX Info: Redefining \. on input line 2808.
-LaTeX Info: Redefining \% on input line 2808.
+LaTeX Info: Redefining \. on input line 2809.
+LaTeX Info: Redefining \% on input line 2809.
+LaTeX Info: Redefining \. on input line 2809.
+LaTeX Info: Redefining \% on input line 2809.
  [171]
-LaTeX Info: Redefining \. on input line 2817.
-LaTeX Info: Redefining \% on input line 2817.
-LaTeX Info: Redefining \. on input line 2817.
-LaTeX Info: Redefining \% on input line 2817.
+LaTeX Info: Redefining \. on input line 2818.
+LaTeX Info: Redefining \% on input line 2818.
+LaTeX Info: Redefining \. on input line 2818.
+LaTeX Info: Redefining \% on input line 2818.
  [172]
-LaTeX Info: Redefining \. on input line 2821.
-LaTeX Info: Redefining \% on input line 2821.
-LaTeX Info: Redefining \. on input line 2821.
-LaTeX Info: Redefining \% on input line 2821.
+LaTeX Info: Redefining \. on input line 2822.
+LaTeX Info: Redefining \% on input line 2822.
+LaTeX Info: Redefining \. on input line 2822.
+LaTeX Info: Redefining \% on input line 2822.
  [173] [174
 
 ]
-Package biblatex Info: Resetting trackers on input line 2821.
-LaTeX Info: Redefining \. on input line 2835.
-LaTeX Info: Redefining \% on input line 2835.
-LaTeX Info: Redefining \. on input line 2835.
-LaTeX Info: Redefining \% on input line 2835.
+Package biblatex Info: Resetting trackers on input line 2822.
+LaTeX Info: Redefining \. on input line 2836.
+LaTeX Info: Redefining \% on input line 2836.
+LaTeX Info: Redefining \. on input line 2836.
+LaTeX Info: Redefining \% on input line 2836.
  [175] [176
 
 ]
-Package biblatex Info: Resetting trackers on input line 2835.
-LaTeX Info: Redefining \. on input line 2857.
-LaTeX Info: Redefining \% on input line 2857.
-LaTeX Info: Redefining \. on input line 2857.
-LaTeX Info: Redefining \% on input line 2857.
+Package biblatex Info: Resetting trackers on input line 2836.
+LaTeX Info: Redefining \. on input line 2858.
+LaTeX Info: Redefining \% on input line 2858.
+LaTeX Info: Redefining \. on input line 2858.
+LaTeX Info: Redefining \% on input line 2858.
  [177]
-LaTeX Info: Redefining \. on input line 2889.
-LaTeX Info: Redefining \% on input line 2889.
-LaTeX Info: Redefining \. on input line 2889.
-LaTeX Info: Redefining \% on input line 2889.
+LaTeX Info: Redefining \. on input line 2890.
+LaTeX Info: Redefining \% on input line 2890.
+LaTeX Info: Redefining \. on input line 2890.
+LaTeX Info: Redefining \% on input line 2890.
  [178]
-LaTeX Info: Redefining \. on input line 2920.
-LaTeX Info: Redefining \% on input line 2920.
-LaTeX Info: Redefining \. on input line 2920.
-LaTeX Info: Redefining \% on input line 2920.
+LaTeX Info: Redefining \. on input line 2921.
+LaTeX Info: Redefining \% on input line 2921.
+LaTeX Info: Redefining \. on input line 2921.
+LaTeX Info: Redefining \% on input line 2921.
  [179]
-LaTeX Info: Redefining \. on input line 2951.
-LaTeX Info: Redefining \% on input line 2951.
-LaTeX Info: Redefining \. on input line 2951.
-LaTeX Info: Redefining \% on input line 2951.
+LaTeX Info: Redefining \. on input line 2952.
+LaTeX Info: Redefining \% on input line 2952.
+LaTeX Info: Redefining \. on input line 2952.
+LaTeX Info: Redefining \% on input line 2952.
  [180]
-LaTeX Info: Redefining \. on input line 2984.
-LaTeX Info: Redefining \% on input line 2984.
-LaTeX Info: Redefining \. on input line 2984.
-LaTeX Info: Redefining \% on input line 2984.
+LaTeX Info: Redefining \. on input line 2985.
+LaTeX Info: Redefining \% on input line 2985.
+LaTeX Info: Redefining \. on input line 2985.
+LaTeX Info: Redefining \% on input line 2985.
 
 [181]
-LaTeX Info: Redefining \. on input line 3014.
-LaTeX Info: Redefining \% on input line 3014.
-LaTeX Info: Redefining \. on input line 3014.
-LaTeX Info: Redefining \% on input line 3014.
+LaTeX Info: Redefining \. on input line 3015.
+LaTeX Info: Redefining \% on input line 3015.
+LaTeX Info: Redefining \. on input line 3015.
+LaTeX Info: Redefining \% on input line 3015.
  [182]
-LaTeX Info: Redefining \. on input line 3044.
-LaTeX Info: Redefining \% on input line 3044.
-LaTeX Info: Redefining \. on input line 3044.
-LaTeX Info: Redefining \% on input line 3044.
+LaTeX Info: Redefining \. on input line 3045.
+LaTeX Info: Redefining \% on input line 3045.
+LaTeX Info: Redefining \. on input line 3045.
+LaTeX Info: Redefining \% on input line 3045.
  [183] 
 AED: pageslts setting LastPage 
-LaTeX Info: Redefining \. on input line 3059.
-LaTeX Info: Redefining \% on input line 3059.
-LaTeX Info: Redefining \. on input line 3059.
-LaTeX Info: Redefining \% on input line 3059.
+LaTeX Info: Redefining \. on input line 3060.
+LaTeX Info: Redefining \% on input line 3060.
+LaTeX Info: Redefining \. on input line 3060.
+LaTeX Info: Redefining \% on input line 3060.
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
 )
@@ -4216,18 +4219,18 @@ Package logreq Info: Writing requests to 'pdf-20250425MAURO.run.xml'.
 
 Here is how much of LuaTeX's memory you used:
  67009 strings out of 476553
- 6947242,2848258 words of node,token memory allocated
- 6165184 words of node memory still in use:
-   24351 hlist, 49 vlist, 5179 rule, 177 ins, 1 adjust, 77820 disc, 4281 local_p
-ar, 414 math, 122387 glue, 63471 kern, 8892 penalty, 798 margin_kern, 500260 gly
-ph, 106990 attribute, 8460 glue_spec, 15296 attribute_list, 9 write, 46 pdf_lite
-ral, 163 pdf_start_link, 169 pdf_end_link, 341 pdf_dest, 139 pdf_action, 3643 pd
+ 6947213,2848258 words of node,token memory allocated
+ 6001749 words of node memory still in use:
+   19486 hlist, 42 vlist, 4261 rule, 181 ins, 1 adjust, 77682 disc, 4280 local_p
+ar, 408 math, 110675 glue, 61846 kern, 8901 penalty, 798 margin_kern, 497503 gly
+ph, 106794 attribute, 8446 glue_spec, 15268 attribute_list, 9 write, 46 pdf_lite
+ral, 167 pdf_start_link, 173 pdf_end_link, 345 pdf_dest, 139 pdf_action, 3651 pd
 f_colorstack nodes
-   avail lists: 1:12,2:276,3:210,4:653,5:204,6:23,7:3135,8:136,9:133,10:31,11:36
+   avail lists: 1:12,2:276,3:210,4:654,5:204,6:23,7:3135,8:136,9:133,10:31,11:36
 3
  86971 multiletter control sequences out of 65536+600000
- 100 fonts using 26719867 bytes
- 117i,10n,123p,5811b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100 fonts using 27032827 bytes
+ 117i,11n,123p,5811b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name '_bookmark8'
 
@@ -4249,7 +4252,7 @@ ve/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-Regular.otf></usr/sha
 re/texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bol
 d.otf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondense
 d-SemiBold.otf>
-Output written on pdf-20250425MAURO.pdf (190 pages, 713321 bytes).
+Output written on pdf-20250425MAURO.pdf (190 pages, 713190 bytes).
 
 PDF statistics: 1326 PDF objects out of 1440 (max. 8388607)
  989 compressed objects within 10 object streams
