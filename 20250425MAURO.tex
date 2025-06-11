@@ -1,5 +1,10 @@
 % referencias
 \usepackage[style=verbose-note]{biblatex}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{graphicx}
 \addbibresource{./files/gbTeXbib-20250425MAURO.bib}
 
 % glosarios
@@ -33,13 +38,15 @@
 	\fi
 \fi
 
+\title{Periodistas en debate. Aportes al estudio del campo periodístico}
+\author{Mauro Dobruskin}
+
 \begin{document}
 \frontmatter
 
-\textbf{Periodistas en debate. Aportes al estudio del campo periodístico}
-\textbf{(2009 -- 2015)}
+\maketitle
 
-\textbf{Mauro David Dobruskin}
+\textbf{Mauro Dobruskin}
 
 
 \chapter{Agradecimientos}
@@ -353,9 +360,12 @@ A los efectos de establecer la condición de \emph{periodistas}, se adoptó el p
 
 Se considera oportuno, en tal sentido, insertar en este espacio la distribución por año y editorial del \emph{corpus} reunido a fin de lograr el dimensionamiento del fenómeno abordado en la tesis.
 
-Gráfico 2: Distribución de las ediciones por años y editoriales
-
-
+\begin{figure}[h] % h = here (aquí), puede combinarse con t (top), b (bottom), p (página flotante)
+	\centering
+	\includegraphics[width=0.7\textwidth]{media/grafico2.png} % ajustar el ancho al 70% del ancho del texto
+	\caption{Gráfico 2: Distribución de las ediciones por años y editoriales}
+	\label{fig:graf2}
+\end{figure}
 
 \chapter{Estado de la cuestión y consideraciones teórico-metodológicas}
 
@@ -456,10 +466,12 @@ La primera cuestión que abordaremos es: ¿qué está en juego? O bien: ¿qué i
 
 Así como Max Weber caracteriza a la Iglesia como aquella institución que detenta el monopolio de la manipulación de los bienes de salvación, podemos afirmar que el campo periodístico detenta el monopolio de la producción de actualidad. En tal sentido, sostenemos, de manera hipotética, que el campo periodístico disputa por el capital de la credibilidad, sostenida sobre tres ejes: independencia, libertad de expresión y establecimiento de lo que debe ser considerado significativo (la agenda de actualidad).
 
-
-% GRAFICO
-%\textbf{\hl{La credibilidad}}
-%\textbf{\hl{Independencia Libertad de expresión Agenda de actualidad}}
+\begin{figure}[h] % h = here (aquí), puede combinarse con t (top), b (bottom), p (página flotante)
+	\centering
+	\includegraphics[width=0.7\textwidth]{media/diagrama.png} % ajustar el ancho al 70% del ancho del texto
+	\caption{}
+	\label{fig:diagra}
+\end{figure}
 
 Manuel Castells (1998: 48) apunta:
 
@@ -655,17 +667,12 @@ La prensa comercial, tal como la conocemos hoy, con la incorporación de publici
 
 Es pertinente destacar que el inicio y el fin de las etapas o fases del desarrollo de la prensa operaron de manera asincrónica. Cada una de ellas tuvo solapamientos, hecho que determinó el carácter mixto de la prensa comercial, es decir la articulación de información comercial, social y de interés general con información política y de opinión, beneficiándose cada etapa de la construcción y preparación de las audiencias de las etapas precedentes.
 
-\textbf{Gráfico 1:} Representación gráfica de los momentos de la prensa según la taxonomía de Jürgen Habermas (1994).
-
-%\begin{longtable}[]{@{}
-%\midrule\noalign{}
-%\endhead
-%\bottomrule\noalign{}
-%\endlastfoot
-%Crematística & & & & & & \\
-%De opinión & & & & & & \\
-%Comercial & & & & & & \\
-%\end{longtable}
+\begin{figure}[h] % h = here (aquí), puede combinarse con t (top), b (bottom), p (página flotante)
+	\centering
+	\includegraphics[width=0.85\textwidth]{media/grafico1.png} % ajustar el ancho al 70% del ancho del texto
+	\caption{Gráfico 1: Representación gráfica de los momentos de la prensa según la taxonomía de Jürgen Habermas (1994)}
+	\label{fig:graf2}
+\end{figure}
 
 Durante el primer período, los protoperiodistas dependían de los imprenteros y casas editoriales. Con el Estatuto de la~Reina Ana de Inglaterra, promulgado el 10 de abril de 1710, comienzan los escritores a autonomizarse. Sin embargo, ello no aplicaba para los \enquote{periodistas} dado que, para entonces, los periódicos ya habían pasado de ser \enquote{lugares de publicación de noticias frescas, a portadores y guías de la opinión pública, medios de lucha de la política partidista} (Bücher, 1917, citado en Habermas, 1994: 210). Habermas (1994: 210) observa que esta transformación produjo modificaciones en la organización interna de la empresa periodística:
 
@@ -889,114 +896,96 @@ Como ya se señaló, esta es una categoría que introduce Bourdieu, a la que le 
 Si bien esta categoría de \emph{periodista intelectual}, como el resto de las categorías de la clasificación, es preexistentes al conflicto 2009-2015, este le dio una particular relevancia. Quienes la integran se ubicaron, mayoritariamente, en el polo antigubernamental. Entre los más significativos podemos mencionar a Marcos Novaro, Marcelo Birmajer, Santiago Kovadloff, como descalificadores del gobierno; y a Dante Palma, Horacio González y Cynthia Ottaviano, entre los progubernamentales (solo por mencionar algunos ejemplos de medios nacionales, ya que el fenómeno se reproducía, aunque con menor intensidad, en las provincias).
 
 \chapter{Análisis de contenido del \emph{corpus} bibliográfico}
-\section{Corpus de análisis}
+\section{\emph{Corpus} de análisis}
 
 El análisis de la producción ensayística ordenado en el tiempo permitirá apreciar el encadenamiento del debate al interior del campo periodístico y, simultáneamente, la existencia de relaciones causales entre los actores del conflicto, en algunos casos motivados por sus casas periodísticas y, en otros, por el fragor de las batallas políticas.
 
-\textbf{Cuadro 4: Universo de los libros considerados}
+\begin{longtable}{|p{5.5cm}|p{3.5cm}|c|p{4.5cm}|}
+	\caption{Universo de los libros considerados} \\
+	\hline
+	\textbf{Título y año de edición} & \textbf{Editorial} & \textbf{Nº} & \textbf{Autor(es)} \\
+	\hline
+	\endfirsthead
 
-%\begin{longtable}[]{@{}
-%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3651}}
-%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2539}}
-%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0793}}
-%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3016}}@{}}
-%\toprule\noalign{}
-%\begin{minipage}[b]{\linewidth}\raggedright
-%\textbf{Título y año de edición}
-%\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%\textbf{Editorial}
-%\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%\textbf{Nº}
-%\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%\textbf{Autor}
-%\end{minipage} \\
-%\midrule\noalign{}
-%\endhead
-%\bottomrule\noalign{}
-%\endlastfoot
-%\textbf{2009} & & & \\
-%Diario de guerra. Clarín, el gran engaño argentino & Gárgola & 1 & Claudio Díaz \\
-%\textbf{2010} & & & \\
-%678. La creación de otra realidad & \href{http://www.lecturalia.com/editoriales/79/paidos}{Paidós}/Planeta & 2 & María Julia Oliván y Pablo Alabarces \\
-%Silencio por sangre & Miradas al sur & 3 & Daniel Cecchiniy Jorge Mancinelli \\
-%\textbf{2011} & & & \\
-%Pecado original & \href{http://www.tematika.com/buscar.do?seccionDeBusqueda=En+Libros\&seccion=1\&claveDeBusqueda=porEditorial\&txtencoded=Planeta\&idAutor=99\&criterioDeOrden=2\&idSeccion=1\&texto=Planeta\&optSeleccionada=Editorial\&idSeccionPropia=1}{Planeta} & 4 & \href{http://www.tematika.com/buscar.do?seccionDeBusqueda=En+Libros\&seccion=1\&claveDeBusqueda=porAutor\&txtencoded=Graciela+Mochkofsky\&idAutor=35432\&criterioDeOrden=2\&idSeccion=1\&texto=Graciela+Mochkofsky\&optSeleccionada=Autor\&idSeccionPropia=1}{Graciela Mochkofsky} \\
-%Perón y los medios de comunicación & Sudamericana
-%
-%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 5 & Pablo Sirvén \\
-%K Letra bárbara & Sudamericana
-%
-%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 6 & Orlando Barone \\
-%El kirchnerismo póstumo & Ediciones B & 7 & Jorge Asís \\
-%Patria o medios & Sudamericana
-%
-%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 8 & Edi Zunino \\
-%\href{http://www.casassaylorenzo.com/9789872676001/PERIODISMO+DE+INFANTERIA/}{Periodismo de infantería} & \href{http://www.casassaylorenzo.com/resultados.aspx?c=CLARINETE\&ed=7347\&por=editorial\&orden=fecha}{Clarinete} & 9 & Virginia Márquez y Aníbal \href{http://www.libreriapaidos.com/resultados.aspx?c=Ces\%2c+Anibal\&por=AutorEstricto\&aut=59097\&orden=fecha}{Ces} \\
-%\textbf{2012} & & & \\
-%Lanata & Margen Izquierdo & 10 & Luis \href{http://www.cuspide.com/resultados.aspx?c=MAJUL+LUIS\&por=AutorEstricto\&aut=275032\&orden=fecha}{Majul} \\
-%\textbf{2013} & & & \\
-%\href{https://www.boutiquedellibro.com.ar/9789876281928/Aquel+Periodismo/}{Aquel periodismo}. Medios y periodistas en la Argentina 1965-2012 & \href{http://www.libreriapaidos.com/resultados.aspx?c=Edhasa\&ed=409\&por=editorial\&orden=fecha}{Edhasa} & 11 & \href{http://www.edhasa.com.ar/busqueda-avanzada.php?autor=Daniel+Muchnik\&avanzada=1}{Daniel Muchnik} \\
-%Víctor Hugo, una historia de coherencia y convicción & Ediciones al arco & 12 & Julián Capasso \\
-%El inventor del peronismo & Planeta & 13 & Silvia Diana Mercado \\
-%Máquinas de captura. Los medios concentrados en tiempos del kirchnerismo & Colihue & 14 & Daniel Rosso \\
-%\href{http://www.cuspide.com/9789504932871/1++Clarin/}{Clarín}, el gran diario argentino: una historia & Planeta & 15 & Martín Sivak \\
-%Años de rabia & \href{http://www.edicionesb-argentina.com/}{Ediciones} B & 16 & Eduardo Blaustein \\
-%Converso & Margen izquierdo & 17 & Pablo Sirvén \\
-%El pequeño Timerman & Ediciones B & 18 & Gabriel \href{http://www.edicionesb-argentina.com/autor/levinas-daniel/}{Levinas} \\
-%\textbf{2014} & & & \\
-%Nuevos desafíos del periodismo & Ariel /Paidós
-%
-%Planeta- ADEPA & 19 & Daniel Dessein y Gastón Roitberg (Compiladores) \\
-%Periodistas en el barro. Peleas, aprietes, traiciones y negocios. Miserias y razones de la guerra mediática en la Argentina reciente & Sudamericana
-%
-%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 20 & \href{http://buscapdf.es/busca/?a=edi+zunino\&m=ae}{Edi Zunino} \\
-%Tiempos turbulentos & Ariel /Paidós
-%
-%Planeta- ADEPA & 21 & \href{http://www.planetadelibros.com.ar/carlos-jornet-autor-000063783.html}{Carlos Jornet} y \href{http://www.planetadelibros.com.ar/daniel-dessein-autor-000063287.html}{Daniel Dessein} \\
-%Télam, el hecho maldito del periodismo argentino & Ediciones TXT & 22 & \href{http://www.libreriahernandez.com/busquedaMultiple?perPage=18\&authorIds=171462\&sortBy=stockAndTitle\&reverseSort=\&displayMode=\&groupMode=\&page=1}{Ariel Bargach~}y \href{http://www.libreriahernandez.com/busquedaMultiple?perPage=18\&authorIds=118944\&sortBy=stockAndTitle\&reverseSort=\&displayMode=\&groupMode=\&page=1}{Mariano Suárez\emph{~}} \\
-%(In)justicia mediática & Sudamericana
-%
-%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 23 & Darío \href{http://www.cuspide.com/resultados.aspx?c=VILLARRUEL+DARIO\&por=AutorEstricto\&aut=291343\&orden=fecha}{Villarruel} \\
-%Audiencia con el diablo & Aguilar & 24 & ~Víctor Hugo \href{http://www.cuspide.com/resultados.aspx?c=MORALES+VICTOR+HUGO\&por=AutorEstricto\&aut=278005\&orden=fecha}{Morales} \\
-%Las locuras del Rey Jorge & Ediciones B & 25 & Eduardo \href{http://www.edicionesb-argentina.com/autor/blaustein-eduardo/}{Blaustein} \\
-%Guerras mediáticas & Sudamericana
-%
-%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 26 & Fernando Ruiz \\
-%\textbf{2015} & & & \\
-%\href{https://www.boutiquedellibro.com.ar/9789504946175/Quienes+Fuimos+En+La+Era+K/}{Quiénes fuimos en la era k} & Planeta & 27 & Jorge \href{http://www.cuspide.com/resultados.aspx?c=FONTEVECCHIA+JORGE\&por=AutorEstricto\&aut=264707\&orden=fecha}{Fontevecchia} \\
-%El Perro & Ediciones B & 28 & Hernán \href{http://www.edicionesb-argentina.com/autor/lopez-echague-hernan/}{López Echague} \\
-%\end{longtable}
+	\multicolumn{4}{c}%
+	{{\bfseries \tablename\ \thetable{} -- continuación}} \\
+	\hline
+	\textbf{Título y año de edición} & \textbf{Editorial} & \textbf{Nº} & \textbf{Autor(es)} \\
+	\hline
+	\endhead
 
-%\begin{longtable}[]{@{}
-%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3651}}
-%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2539}}
-%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0793}}
-%  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3016}}@{}}
-%\toprule\noalign{}
-%\begin{minipage}[b]{\linewidth}\raggedright
-%La inconclusa ley de medios: la historia menos contada
-%\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%Continente
-%\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%29
-%\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-%Néstor Piccone
-%\end{minipage} \\
-%\midrule\noalign{}
-%\endhead
-%\bottomrule\noalign{}
-%\endlastfoot
-%Grandes y pequeñas mentiras que nos contaron & Planeta & 30 & \href{http://www.planetadelibros.com.ar/marcos-novaro-autor-000058154.html}{Marcos Novaro} y \href{http://www.planetadelibros.com.ar/marcelo-birmajer-autor-000021721.html}{Marcelo Birmajer} \\
-%Doble agente. La biografía inesperada de Horacio Verbitsky & Sudamericana
-%
-%\href{https://es.wikipedia.org/wiki/Penguin_Random_House_Grupo_Editorial}{PenguinRandom House} & 31 & \href{http://www.megustaleer.com.ar/autor/gabriel-levinas/0000030467}{Gabriel Levinas} \\
-%Mentime que me gusta & Aguilar & 32 & Víctor Hugo \href{http://www.cuspide.com/resultados.aspx?c=MORALES+VICTOR+HUGO\&por=AutorEstricto\&aut=278005\&orden=fecha}{Morales} \\
-%\href{http://www.cuspide.com/9789876842686/El+Rebenque+Del+Diablo/}{El rebenque del diablo} & Colihue & 33 & Víctor Hugo \href{http://www.cuspide.com/resultados.aspx?c=MORALES+VICTOR+HUGO\&por=AutorEstricto\&aut=278005\&orden=fecha}{Morales} \\
-%\href{http://www.cuspide.com/9789876275637/Todos+Contra+Branca+Contra+Todos/}{Todos contra Branca contra todos} & Ediciones B & 34 & Diego Brancatelli \\
-%Diez ironías sobre la libertad de expresión & Colectivo de Trabajadores De Prensa (CTP) & 35 & Autores Varios \\
-%\href{http://www.cuspide.com/9789504947066/Clarin++La+Era+Magnetto/}{Clarín, la era Magnetto} & Planeta & 36 & \href{http://www.planetadelibros.com.ar/sivak-martin-ernesto-autor-000057233.html}{Martin Ernesto}Sivak \\
-%Periodistas depordivos & Ediciones al arco & 37 & Walter Vargas \\
-%\end{longtable}
+	\hline \multicolumn{4}{|r|}{{Continúa en la próxima página}} \\
+	\hline
+	\endfoot
+
+	\hline
+	\endlastfoot
+
+	\multicolumn{4}{|c|}{\textbf{2009}} \\
+	\hline
+	Diario de guerra. Clarín, el gran engaño argentino & Gárgola & 1 & Claudio Díaz \\
+	\hline
+
+	\multicolumn{4}{|c|}{\textbf{2010}} \\
+	\hline
+	678. La creación de otra realidad & Paidós/Planeta & 2 & María Julia Oliván y Pablo Alabarces \\
+	Silencio por sangre & Miradas al sur & 3 & Daniel Cecchini y Jorge Mancinelli \\
+	\hline
+
+	\multicolumn{4}{|c|}{\textbf{2011}} \\
+	\hline
+	Pecado original & Planeta & 4 & Graciela Mochkofsky \\
+	Perón y los medios de comunicación & Sudamericana / Penguin Random House & 5 & Pablo Sirvén \\
+	K Letra bárbara & Sudamericana / Penguin Random House & 6 & Orlando Barone \\
+	El kirchnerismo póstumo & Ediciones B & 7 & Jorge Asís \\
+	Patria o medios & Sudamericana / Penguin Random House & 8 & Edi Zunino \\
+	Periodismo de infantería & Clarinete & 9 & Virginia Márquez y Aníbal Ces \\
+	\hline
+
+	\multicolumn{4}{|c|}{\textbf{2012}} \\
+	\hline
+	Lanata & Margen Izquierdo & 10 & Luis Majul \\
+	\hline
+
+	\multicolumn{4}{|c|}{\textbf{2013}} \\
+	\hline
+	Aquel periodismo. Medios y periodistas en la Argentina 1965--2012 & Edhasa & 11 & Daniel Muchnik \\
+	Víctor Hugo, una historia de coherencia y convicción & Ediciones al arco & 12 & Julián Capasso \\
+	El inventor del peronismo & Planeta & 13 & Silvia Diana Mercado \\
+	Máquinas de captura. Los medios concentrados en tiempos del kirchnerismo & Colihue & 14 & Daniel Rosso \\
+	Clarín, el gran diario argentino: una historia & Planeta & 15 & Martín Sivak \\
+	Años de rabia & Ediciones B & 16 & Eduardo Blaustein \\
+	Converso & Margen Izquierdo & 17 & Pablo Sirvén \\
+	El pequeño Timerman & Ediciones B & 18 & Gabriel Levinas \\
+	\hline
+
+	\multicolumn{4}{|c|}{\textbf{2014}} \\
+	\hline
+	Nuevos desafíos del periodismo & Ariel / Paidós / Planeta-ADEPA & 19 & Daniel Dessein y Gastón Roitberg (Compiladores) \\
+	Periodistas en el barro & Sudamericana / Penguin Random House & 20 & Edi Zunino \\
+	Tiempos turbulentos & Ariel / Paidós / Planeta-ADEPA & 21 & Carlos Jornet y Daniel Dessein \\
+	Télam, el hecho maldito del periodismo argentino & Ediciones TXT & 22 & Ariel Bargach y Mariano Suárez \\
+	(In)justicia mediática & Sudamericana / Penguin Random House & 23 & Darío Villarruel \\
+	Audiencia con el diablo & Aguilar & 24 & Víctor Hugo Morales \\
+	Las locuras del Rey Jorge & Ediciones B & 25 & Eduardo Blaustein \\
+	Guerras mediáticas & Sudamericana / Penguin Random House & 26 & Fernando Ruiz \\
+	\hline
+
+	\multicolumn{4}{|c|}{\textbf{2015}} \\
+	\hline
+	Quiénes fuimos en la era k & Planeta & 27 & Jorge Fontevecchia \\
+	El Perro & Ediciones B & 28 & Hernán López Echagüe \\
+	La inconclusa ley de medios: la historia menos contada & Continente & 29 & Néstor Piccone \\
+	Grandes y pequeñas mentiras que nos contaron & Planeta & 30 & Marcos Novaro y Marcelo Birmajer \\
+	Doble agente. La biografía inesperada de Horacio Verbitsky & Sudamericana / Penguin Random House & 31 & Gabriel Levinas \\
+	Mentime que me gusta & Aguilar & 32 & Víctor Hugo Morales \\
+	El rebenque del diablo & Colihue & 33 & Víctor Hugo Morales \\
+	Todos contra Branca contra todos & Ediciones B & 34 & Diego Brancatelli \\
+	Diez ironías sobre la libertad de expresión & CTP & 35 & Autores Varios \\
+	Clarín, la era Magnetto & Planeta & 36 & Martín Ernesto Sivak \\
+	Periodistas deportivos & Ediciones al arco & 37 & Walter Vargas \\
+\end{longtable}
+
 
 
 \section{Periodización}
