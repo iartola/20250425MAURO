@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.4)  10 JUN 2025 22:14
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.4)  11 JUN 2025 11:05
  restricted system commands enabled.
 **pdf-20250425MAURO.tex
 (./pdf-20250425MAURO.tex
@@ -3182,126 +3182,11 @@ LaTeX Info: Redefining \% on input line 643.
  [11]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
 (Font)              scaled to size 7.07996pt on input line 660.
-
-
-! Package siunitx Error: Invalid number 'd'.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.674 		La Voz del Int. & Córdoba &
-                                   99 & 90 & 90 & 90 & 84 & 81 & 73 & 66 & 5...
-
-The input 'd' could not be parsed as a number following the format defined in
-module documentation.
-
-
-Runaway argument?
-\q_stop \hbox_set:Nn \l__siunitx_table_tmp_box {\l__siunitx_table_after_model_t
-l \ETC.
-! Forbidden control sequence found while scanning use of \__siunitx_table_print_
-format_auxi:w.
-<inserted text> 
-\par 
-l.674 		La Voz del Int. & Córdoba &
-                                   99 & 90 & 90 & 90 & 84 & 81 & 73 & 66 & 5...
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-! Missing \endgroup inserted.
-<inserted text> 
-\endgroup 
-l.674 		La Voz del Int. & Córdoba &
-                                   99 & 90 & 90 & 90 & 84 & 81 & 73 & 66 & 5...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! Package siunitx Error: Invalid number 'e'.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.675 		Los Andes & Mendoza &
-                            83 & 78 & 77 & 73 & 68 & 65 & 57 & 52 & 49 & 43 \\
-
-The input 'e' could not be parsed as a number following the format defined in
-module documentation.
-
-
-Runaway argument?
-\q_stop \hbox_set:Nn \l__siunitx_table_tmp_box {\l__siunitx_table_after_model_t
-l \ETC.
-! Forbidden control sequence found while scanning use of \__siunitx_table_print_
-format_auxi:w.
-<inserted text> 
-\par 
-l.675 		Los Andes & Mendoza &
-                            83 & 78 & 77 & 73 & 68 & 65 & 57 & 52 & 49 & 43 \\
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-! Missing \endgroup inserted.
-<inserted text> 
-\endgroup 
-l.675 		Los Andes & Mendoza &
-                            83 & 78 & 77 & 73 & 68 & 65 & 57 & 52 & 49 & 43 \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! Package siunitx Error: Invalid number 'E'.
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.680 		Diario Uno & Entre Ríos &
-                                 36 & 38 & 22 & 34 & 30 & 28 & 26 & 26 & 25 ...
-
-The input 'E' could not be parsed as a number following the format defined in
-module documentation.
-
-
-Runaway argument?
-\q_stop \hbox_set:Nn \l__siunitx_table_tmp_box {\l__siunitx_table_after_model_t
-l \ETC.
-! Forbidden control sequence found while scanning use of \__siunitx_table_print_
-format_auxi:w.
-<inserted text> 
-\par 
-l.680 		Diario Uno & Entre Ríos &
-                                 36 & 38 & 22 & 34 & 30 & 28 & 26 & 26 & 25 ...
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-! Missing \endgroup inserted.
-<inserted text> 
-\endgroup 
-l.680 		Diario Uno & Entre Ríos &
-                                 36 & 38 & 22 & 34 & 30 & 28 & 26 & 26 & 25 ...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 LaTeX Info: Redefining \. on input line 691.
 LaTeX Info: Redefining \% on input line 691.
 LaTeX Info: Redefining \. on input line 691.
 LaTeX Info: Redefining \% on input line 691.
-[12]
+ [12]
 LaTeX Font Info:    Font shape `TU/IBMPlexSansCondensed(0)/m/it' will be
 (Font)              scaled to size 9.81033pt on input line 695.
 LaTeX Info: Redefining \. on input line 708.
@@ -3478,10 +3363,6 @@ File: media/grafico1.png Graphic file (type png)
 Package luatex.def Info: media/grafico1.png  used on input line 1104.
 (luatex.def)             Requested size: 266.03516pt x 65.64227pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Overfull \vbox (0.46121pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 1110.
@@ -3541,23 +3422,11 @@ LaTeX Info: Redefining \% on input line 1203.
 LaTeX Info: Redefining \. on input line 1203.
 LaTeX Info: Redefining \% on input line 1203.
  [52]
-! Too many }'s.
-l.1206 ...chnik, Eduardo Blaustein, Gabriel Levinas}
-                                                  , Darío Villarruel}, Jorg...
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Too many }'s.
-l.1206 ...tein, Gabriel Levinas}, Darío Villarruel}
-                                                  , Jorge Fontevecchia, entr...
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
 LaTeX Info: Redefining \. on input line 1211.
 LaTeX Info: Redefining \% on input line 1211.
 LaTeX Info: Redefining \. on input line 1211.
 LaTeX Info: Redefining \% on input line 1211.
-[53]
+ [53]
 LaTeX Info: Redefining \. on input line 1253.
 LaTeX Info: Redefining \% on input line 1253.
 LaTeX Info: Redefining \. on input line 1253.
@@ -3860,31 +3729,31 @@ LaTeX Info: Redefining \% on input line 2023.
 LaTeX Info: Redefining \. on input line 2023.
 LaTeX Info: Redefining \% on input line 2023.
  [110]
-LaTeX Info: Redefining \. on input line 2038.
-LaTeX Info: Redefining \% on input line 2038.
-LaTeX Info: Redefining \. on input line 2038.
-LaTeX Info: Redefining \% on input line 2038.
+LaTeX Info: Redefining \. on input line 2037.
+LaTeX Info: Redefining \% on input line 2037.
+LaTeX Info: Redefining \. on input line 2037.
+LaTeX Info: Redefining \% on input line 2037.
  [111]
-LaTeX Info: Redefining \. on input line 2049.
-LaTeX Info: Redefining \% on input line 2049.
-LaTeX Info: Redefining \. on input line 2049.
-LaTeX Info: Redefining \% on input line 2049.
+LaTeX Info: Redefining \. on input line 2045.
+LaTeX Info: Redefining \% on input line 2045.
+LaTeX Info: Redefining \. on input line 2045.
+LaTeX Info: Redefining \% on input line 2045.
  [112]
 LaTeX Info: Redefining \. on input line 2057.
 LaTeX Info: Redefining \% on input line 2057.
 LaTeX Info: Redefining \. on input line 2057.
 LaTeX Info: Redefining \% on input line 2057.
  [113]
-LaTeX Info: Redefining \. on input line 2081.
-LaTeX Info: Redefining \% on input line 2081.
-LaTeX Info: Redefining \. on input line 2081.
-LaTeX Info: Redefining \% on input line 2081.
+LaTeX Info: Redefining \. on input line 2079.
+LaTeX Info: Redefining \% on input line 2079.
+LaTeX Info: Redefining \. on input line 2079.
+LaTeX Info: Redefining \% on input line 2079.
 
 [114]
-LaTeX Info: Redefining \. on input line 2095.
-LaTeX Info: Redefining \% on input line 2095.
-LaTeX Info: Redefining \. on input line 2095.
-LaTeX Info: Redefining \% on input line 2095.
+LaTeX Info: Redefining \. on input line 2093.
+LaTeX Info: Redefining \% on input line 2093.
+LaTeX Info: Redefining \. on input line 2093.
+LaTeX Info: Redefining \% on input line 2093.
  [115]
 LaTeX Info: Redefining \. on input line 2107.
 LaTeX Info: Redefining \% on input line 2107.
@@ -3896,20 +3765,20 @@ LaTeX Info: Redefining \% on input line 2113.
 LaTeX Info: Redefining \. on input line 2113.
 LaTeX Info: Redefining \% on input line 2113.
  [117]
-LaTeX Info: Redefining \. on input line 2137.
-LaTeX Info: Redefining \% on input line 2137.
-LaTeX Info: Redefining \. on input line 2137.
-LaTeX Info: Redefining \% on input line 2137.
+LaTeX Info: Redefining \. on input line 2135.
+LaTeX Info: Redefining \% on input line 2135.
+LaTeX Info: Redefining \. on input line 2135.
+LaTeX Info: Redefining \% on input line 2135.
  [118]
 LaTeX Info: Redefining \. on input line 2149.
 LaTeX Info: Redefining \% on input line 2149.
 LaTeX Info: Redefining \. on input line 2149.
 LaTeX Info: Redefining \% on input line 2149.
  [119]
-LaTeX Info: Redefining \. on input line 2167.
-LaTeX Info: Redefining \% on input line 2167.
-LaTeX Info: Redefining \. on input line 2167.
-LaTeX Info: Redefining \% on input line 2167.
+LaTeX Info: Redefining \. on input line 2161.
+LaTeX Info: Redefining \% on input line 2161.
+LaTeX Info: Redefining \. on input line 2161.
+LaTeX Info: Redefining \% on input line 2161.
  [120]
 LaTeX Info: Redefining \. on input line 2181.
 LaTeX Info: Redefining \% on input line 2181.
@@ -3921,15 +3790,15 @@ LaTeX Info: Redefining \% on input line 2197.
 LaTeX Info: Redefining \. on input line 2197.
 LaTeX Info: Redefining \% on input line 2197.
  [122]
-LaTeX Info: Redefining \. on input line 2208.
-LaTeX Info: Redefining \% on input line 2208.
-LaTeX Info: Redefining \. on input line 2208.
-LaTeX Info: Redefining \% on input line 2208.
+LaTeX Info: Redefining \. on input line 2206.
+LaTeX Info: Redefining \% on input line 2206.
+LaTeX Info: Redefining \. on input line 2206.
+LaTeX Info: Redefining \% on input line 2206.
  [123]
-LaTeX Info: Redefining \. on input line 2225.
-LaTeX Info: Redefining \% on input line 2225.
-LaTeX Info: Redefining \. on input line 2225.
-LaTeX Info: Redefining \% on input line 2225.
+LaTeX Info: Redefining \. on input line 2221.
+LaTeX Info: Redefining \% on input line 2221.
+LaTeX Info: Redefining \. on input line 2221.
+LaTeX Info: Redefining \% on input line 2221.
  [124]
 LaTeX Info: Redefining \. on input line 2239.
 LaTeX Info: Redefining \% on input line 2239.
@@ -4292,18 +4161,18 @@ Package logreq Info: Writing requests to 'pdf-20250425MAURO.run.xml'.
 
 Here is how much of LuaTeX's memory you used:
  67073 strings out of 476553
- 6947419,2848258 words of node,token memory allocated
- 5732716 words of node memory still in use:
-   14908 hlist, 52 vlist, 3850 rule, 181 ins, 1 adjust, 76770 disc, 2909 local_p
-ar, 440 math, 104364 glue, 59979 kern, 7222 penalty, 754 margin_kern, 489682 gly
-ph, 75035 attribute, 6540 glue_spec, 10731 attribute_list, 9 write, 38 pdf_liter
-al, 157 pdf_start_link, 167 pdf_end_link, 341 pdf_dest, 129 pdf_action, 1046 pdf
+ 6947412,2848258 words of node,token memory allocated
+ 5720244 words of node memory still in use:
+   14653 hlist, 52 vlist, 3856 rule, 181 ins, 1 adjust, 76806 disc, 2909 local_p
+ar, 440 math, 103451 glue, 58776 kern, 7437 penalty, 753 margin_kern, 488950 gly
+ph, 77786 attribute, 6540 glue_spec, 11124 attribute_list, 9 write, 38 pdf_liter
+al, 156 pdf_start_link, 166 pdf_end_link, 341 pdf_dest, 128 pdf_action, 1044 pdf
 _colorstack, 6 pdf_setmatrix, 6 pdf_save, 6 pdf_restore nodes
-   avail lists: 1:13,2:276,3:210,4:44,5:204,6:23,7:3135,8:136,9:133,10:35,11:363
+   avail lists: 1:12,2:276,3:210,4:44,5:204,6:23,7:3135,8:136,9:133,10:35,11:363
 
  87020 multiletter control sequences out of 65536+600000
  107 fonts using 30034799 bytes
- 117i,11n,123p,5818b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,11n,123p,5866b,2668s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'Hfootnote.9'
 
@@ -4324,10 +4193,10 @@ texlive/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Bold.o
 tf></usr/share/texlive/texmf-dist/fonts/opentype/ibm/plex/IBMPlexSansCondensed-S
 emiBold.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/libertinus-font
 s/LibertinusSerif-Regular.otf>
-Output written on pdf-20250425MAURO.pdf (192 pages, 849022 bytes).
+Output written on pdf-20250425MAURO.pdf (192 pages, 848750 bytes).
 
-PDF statistics: 1343 PDF objects out of 1440 (max. 8388607)
- 990 compressed objects within 10 object streams
+PDF statistics: 1342 PDF objects out of 1440 (max. 8388607)
+ 989 compressed objects within 10 object streams
  358 named destinations out of 1000 (max. 131072)
  333 words of extra memory for PDF output out of 10000 (max. 100000000)
 
