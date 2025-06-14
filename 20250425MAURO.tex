@@ -8,6 +8,11 @@
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage{siunitx}
+\usepackage{adjustbox}
+\usepackage{booktabs} % para top/mid/bottomrule
+\usepackage{caption}  % opcional: mejora el formato del caption
+\usepackage{ragged2e}
+\usepackage{pdflscape}
 \sisetup{table-format=4.0} % configuración general para siunitx
 \addbibresource{./files/gbTeXbib-20250425MAURO.bib}
 
@@ -49,53 +54,53 @@
 
 \begin{document}
 \frontmatter
+\input{./artcap/inicio-frontmatter.tex}
 
-\maketitle
+%\maketitle
 
-\textbf{Mauro Dobruskin}
+
+\tableofcontents
 
 
 \chapter{Agradecimientos}
 
-A los docentes de la Maestría y en particular a Nadia Koziner, por haberme devuelto la alegría de estudiar
+A los docentes de la Maestría y en particular a Nadia Koziner, por haberme devuelto la alegría de estudiar.
 
 A Julio Moyano que compartió sus conocimientos, experiencia y amistad para que este trabajo llegara a su fin.
 
-A Martín Güelman por su paciencia y dedicación en la corrección de los avances
+A Martín Güelman por su paciencia y dedicación en la corrección de los avances.
 
-A Esther Jodice, por haberme acompañado en lo mejor de mi vida
+A Esther Jodice, por haberme acompañado en lo mejor de mi vida.
+
 
 \chapter{Pre texto}
 
 Cuando durante 2015 comencé a dar forma al proyecto de tesis, la bibliografía sobre sociología del periodismo argentino era escasa y/o fragmentaria. De hecho, distintos autores que estudiaban el tema lo presentaban como un déficit a subsanar. Por otra parte ese año, y los precedentes, habían dado lugar a una producción desusada de libros sobre la actividad periodística como expresión del conflicto, inicialmente, entre el gobierno y uno de los grandes grupos de medios de la Argentina, pero luego el conflicto se extendió, en apariencia, a todo el periodismo argentino. A la luz de ese conflicto, creí observar la estructuración de un discurso, que daba cuenta del hacer y del sentir del conglomerado de periodistas que intervenían en la serie editorial y que, a mi entender, permitiría descubrir, o al menos reconocer, las formas que la acción del campo periodístico adopta, de manera especial, en una situación de conflicto abierto.
 
-Pierre Bourdieu (2008) plantea que en todo campo hay conflicto, pero que el campo lo gestiona de manera tal que no eclosione. El campo periodístico es experto en la gestión del conflicto. Su capacidad de convertir el conflicto entre actores significativos de la sociedad en acontecimientos de actualidad es, justamente, el sentido de su especificidad. Sin embargo, el conflicto al interior de sus entrañas, parece haberlo descentrado poniendo en riesgo el principio de su existencia, la creencia social colectiva en la identidad entre el discurso periodístico y la realidad, en la verosimilitud de los discursos de los periodistas. Cuando se escriben estas líneas (entre marzo y agosto de 2020), el conflicto ha escalado a niveles difíciles de imaginar en 2015, cuestionando en el escenario público, a periodistas de gran prestigio en la Argentina.
+Pierre Bourdieu (\citeyear{@6963-BOURDIEU2008}) plantea que en todo campo hay conflicto, pero que el campo lo gestiona de manera tal que no eclosione. El campo periodístico es experto en la gestión del conflicto. Su capacidad de convertir el conflicto entre actores significativos de la sociedad en acontecimientos de actualidad es, justamente, el sentido de su especificidad. Sin embargo, el conflicto al interior de sus entrañas, parece haberlo descentrado poniendo en riesgo el principio de su existencia, la creencia social colectiva en la identidad entre el discurso periodístico y la realidad, en la verosimilitud de los discursos de los periodistas. Cuando se escriben estas líneas (entre marzo y agosto de 2020), el conflicto ha escalado a niveles difíciles de imaginar en 2015, cuestionando en el escenario público, a periodistas de gran prestigio en la Argentina.
 
 Mientras los medios gráficos poseían la exclusividad como medios de información, estos detentaban una unidad discursiva estructural, es decir los periodistas no eran públicamente reconocidos, ya que escasamente firmaban sus notas, por lo que la responsabilidad del periódico residía en los editores y el director. Sin embargo, el advenimiento de los medios audiovisuales promovió el proceso de identificación y autonomización de un número significativo de periodistas, fortaleciendo, a mi entender, el campo periodístico. Sin embargo, el conflicto del que damos cuenta en la tesis parece haber puesto en crisis esa creencia colectiva, haciendo que la existencia misma del campo se halle en riesgo.
 
 \mainmatter
 
-\newpage
+%\newpage
+\chapter*{}
 \epigraph {\enquote{--¿Y si se rompe la ilusión? --dije con un hilo de voz.
-
 --Qué se va a romper --me tranquilizó.
-
 --Por si acaso, seré una tumba --le prometí-. Lo juro por mi adhesión personal, por mi lealtad al equipo, por usted, por Limardo, por Renovales.
-
 --Diga lo que se le dé la gana, nadie le va a creer.}
 
-\emph{Esse est percipi} (Ser es ser percibido)
-
-{Borges y Bioy Casares, 1967}}
+\emph{Esse est percipi} (Ser es ser percibido)}
+{\cite{@6964-BORGESBIOY1967}}
 
 
 \chapter{Introducción}
 
 \section{Planteo del problema de investigación}
 
-En la Argentina, la intervención de periodistas como autores de libros que discuten sobre el campo periodístico y su legitimidad cuenta con una larga tradición desde los inicios mismos de la Nación\footnote{Entre otros estudios sobre debates en torno a la construcción y legitimación del campo periodístico desde los orígenes de la prensa argentina, Cfr. Rivera (1968, 1990, 1998), Molina (2012), Alonso (1997, 2004), Moyano (1996, 2008, 2013), Ojeda y Moyano (2015, 2019), Ojeda (2010), De Marco (2006), Díaz, (2012), Auza (1978).}. Sin embargo, el período que transcurre entre los años 2009 y 2015 fue especialmente pródigo en la cantidad y diversidad de material que se produjo sobre el tema, con especial énfasis en la crítica a colegas y/o a medios de comunicación.
+En la Argentina, la intervención de periodistas como autores de libros que discuten sobre el campo periodístico y su legitimidad cuenta con una larga tradición desde los inicios mismos de la Nación\footnote{Entre otros estudios sobre debates en torno a la construcción y legitimación del campo periodístico desde los orígenes de la prensa argentina, Cfr. Rivera (1968, \citeyear{@6965-RIVERA1990}, \citeyear{@6966-RIVERA1998}), Molina (2012), Alonso (\citeyear{@6960-ALONSO1997}, 2004), Moyano (\citeyear{@6968-MOYANO1996}, \citeyear{@6969-MOYANO2008}, \citeyear{@6970-MOYANO2013}), Ojeda y Moyano (2015, 2019), Ojeda (2010), De Marco (2006), Díaz, (2012), Auza (1978).}. Sin embargo, el período que transcurre entre los años 2009 y 2015 fue especialmente pródigo en la cantidad y diversidad de material que se produjo sobre el tema, con especial énfasis en la crítica a colegas y/o a medios de comunicación.
 
-Desde la reinstalación del sistema democrático, en 1984, es posible identificar el desarrollo y la consolidación de los libros de periodistas como uno de los géneros predominantes del ámbito editorial \parencite{@6961-DEDIEGO2012}.Por otra parte, este fenómeno constituye una forma de intervención pública y de jerarquización profesional en el ámbito periodístico (Pereyra, 2013; Vommaro y Baldoni, 2012).
+Desde la reinstalación del sistema democrático, en 1984, es posible identificar el desarrollo y la consolidación de los libros de periodistas como uno de los géneros predominantes del ámbito editorial \parencite{@6961-DEDIEGO2012}. Por otra parte, este fenómeno constituye una forma de intervención pública y de jerarquización profesional en el ámbito periodístico (Pereyra, 2013; Vommaro y Baldoni, 2012).
 
 Baldoni y Gómez Rodríguez (2018) dan cuenta del fenómeno mostrando el proceso de incorporación de la producción de libros de periodistas en el mercado editorial, inicialmente desde las pequeñas editoriales. Luego, a partir de la consolidación de este género, las grandes casas editoriales encontraron, como muestra \parencite{@6962-SAFERSTEIN2016}, un nicho de mercado propicio para la producción de \emph{best-sellers}.
 
@@ -218,28 +223,10 @@ Mientras que en 2010 los diarios y revistas del AMBA recibían el 39\% de la inv
 En la actualidad, la venta de diarios en la Argentina ronda los 200 millones de ejemplares por año. La evolución de la venta neta total de diarios, en el año 2018, ha registrado un nuevo retroceso (-10\%)\footnote{Fuente: Elaboración propia basada en datos del IVC.}, el cual estuvo acompañado por una merma de los lectores de diarios (-7\%) en 2017 con respecto al año anterior.
 
 
-\begin{table}[!ht]
-	\sf\footnotesize\setlength\tabcolsep{4pt}
-	\centering
-	\begin{tabular}{l | S[table-format=4.0] | S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0] | S[table-format=4.0] | c }
-		\toprule
-		\textbf{Diario} & \textbf{2010} & \textbf{2011} & \textbf{2012} & \textbf{2013} & \textbf{2014} & \textbf{2015} & \textbf{2016} & \textbf{2017} & \textbf{2018} & \textbf{2019} & \textbf{Dif. 2010/2019} \\
-		\midrule
-		Clarín & 301 & 288 & 271 & 279 & 239 & 238 & 207 & 183 & 206 & 213 & -33 \\
-		\midrule
-		La Nación & 150 & 160 & 162 & 168 & 164 & 156 & 130 & 122 & 117 & 100 & -37 \\
-		\midrule
-		Diario Popular & 90 & 91 & 89 & 88 & 82 & 84 & 78 & 69 & 62 & 51 & -48 \\
-		\bottomrule
-	\end{tabular}
-	\caption{Circulación neta promedio de los principales diarios del AMBA (en miles)\footnote{Fuente: Elaboración propia según datos del IVC. Se consideró el promedio semanal de lunes a domingo durante el mes de mayo de cada año.}}
-	\label{table:diario1}
-\end{table}
-
 %\begin{table}[!ht]
 %	\sf\footnotesize\setlength\tabcolsep{4pt}
 %	\centering
-%	\begin{tabularx}{\textwidth}{l | *{10}{S} | c}
+%	\begin{tabular}{l | S[table-format=4.0] | S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0] | S[table-format=4.0] | c }
 %		\toprule
 %		\textbf{Diario} & \textbf{2010} & \textbf{2011} & \textbf{2012} & \textbf{2013} & \textbf{2014} & \textbf{2015} & \textbf{2016} & \textbf{2017} & \textbf{2018} & \textbf{2019} & \textbf{Dif. 2010/2019} \\
 %		\midrule
@@ -249,43 +236,99 @@ En la actualidad, la venta de diarios en la Argentina ronda los 200 millones de 
 %		\midrule
 %		Diario Popular & 90 & 91 & 89 & 88 & 82 & 84 & 78 & 69 & 62 & 51 & -48 \\
 %		\bottomrule
-%	\end{tabularx}
+%	\end{tabular}
 %	\caption{Circulación neta promedio de los principales diarios del AMBA (en miles)\footnote{Fuente: Elaboración propia según datos del IVC. Se consideró el promedio semanal de lunes a domingo durante el mes de mayo de cada año.}}
+%	\label{table:diario1}
 %\end{table}
 
+
 \begin{table}[!ht]
-	\sf\footnotesize\setlength\tabcolsep{4pt}
+	\sf\footnotesize
+	\setlength\tabcolsep{4pt}
 	\centering
-	\begin{tabular}{l | c | c | S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0] | S[table-format=4.0] | S[table-format=4.0] }
+	\begin{tabularx}{\textwidth}{l | *{10}{>{\centering\arraybackslash}X} | >{\centering\arraybackslash}X}
 		\toprule
-		\textbf{Diario} & \textbf{Localidad} & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 \\
-\midrule
-		Clarín & AMBA & 664 & 591 & 599 & 570 & 513 & 508 & 487 & 446 & 388 & 396 \\
-\midrule
-		La Nación & AMBA & 280 & 332 & 360 & 331 & 323 & 320 & 302 & 288 & 209 & 201 \\
-\midrule
-		Diario Popular & AMBA & 147 & 131 & 135 & 131 & 120 & 118 & 106 & 95 & 85 & 73 \\
-\midrule
-		La Voz del Int. & Córdoba & 99 & 90 & 90 & 90 & 84 & 81 & 73 & 66 & 59 & 53 \\
-\midrule
-		Los Andes & Mendoza & 83 & 78 & 77 & 73 & 68 & 65 & 57 & 52 & 49 & 43 \\
-\midrule
-		La Capital & Rosario & 82 & 80 & 76 & 67 & 62 & 56 & 47 & 41 & 36 & 30 \\
-\midrule
-		La Gaceta & Tucumán & 61 & 62 & 60 & 56 & 56 & 55 & 49 & 45 & 40 & 34 \\
-\midrule
-		Río Negro & Gral. Roca & 45 & 44 & 42 & 36 & 35 & 35 & 32 & 28 & 26 & 21 \\
-\midrule
-		El Día & La Plata & 40 & 41 & 39 & 35 & 35 & 33 & 31 & 26 & 23 & 19 \\
-\midrule
-		Diario Uno & Entre Ríos & 36 & 38 & 22 & 34 & 30 & 28 & 26 & 26 & 25 & 11 \\
+		\textbf{Diario} & \textbf{2010} & \textbf{2011} & \textbf{2012} & \textbf{2013} & \textbf{2014} & \textbf{2015} & \textbf{2016} & \textbf{2017} & \textbf{2018} & \textbf{2019} & \textbf{Dif. 2010 / 2019} \\
+		\midrule
+		Clarín & 301 & 288 & 271 & 279 & 239 & 238 & 207 & 183 & 206 & 213 & -33 \\
+		\midrule
+		La Nación & 150 & 160 & 162 & 168 & 164 & 156 & 130 & 122 & 117 & 100 & -37 \\
+		\midrule
+		Diario Popular & 90 & 91 & 89 & 88 & 82 & 84 & 78 & 69 & 62 & 51 & -48 \\
 		\bottomrule
-	\end{tabular}
-	\caption{Ranking de circulación de diarios. Día domingo, promedio mes de mayo. Primeros 10 títulos (en miles), 2010--2019\footnote{Elaboración propia con datos del IVC.}}
-	\label{table:diario2}
+	\end{tabularx}
+	\caption{Circulación neta promedio de los principales diarios del AMBA (en miles)\footnote{Fuente: Elaboración propia según datos del IVC. Se consideró el promedio semanal de lunes a domingo durante el mes de mayo de cada año.}}
+	\label{table:diario1}
 \end{table}
 
 
+%\begin{table}[!ht]
+%	\sf\footnotesize\setlength\tabcolsep{4pt}
+%	\centering
+%	\begin{tabular}{l | c | c | S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0]| S[table-format=4.0] | S[table-format=4.0] | S[table-format=4.0] }
+%		\toprule
+%		\textbf{Diario} & \textbf{Localidad} & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 \\
+%\midrule
+%		Clarín & AMBA & 664 & 591 & 599 & 570 & 513 & 508 & 487 & 446 & 388 & 396 \\
+%\midrule
+%		La Nación & AMBA & 280 & 332 & 360 & 331 & 323 & 320 & 302 & 288 & 209 & 201 \\
+%\midrule
+%		Diario Popular & AMBA & 147 & 131 & 135 & 131 & 120 & 118 & 106 & 95 & 85 & 73 \\
+%\midrule
+%		La Voz del Int. & Córdoba & 99 & 90 & 90 & 90 & 84 & 81 & 73 & 66 & 59 & 53 \\
+%\midrule
+%		Los Andes & Mendoza & 83 & 78 & 77 & 73 & 68 & 65 & 57 & 52 & 49 & 43 \\
+%\midrule
+%		La Capital & Rosario & 82 & 80 & 76 & 67 & 62 & 56 & 47 & 41 & 36 & 30 \\
+%\midrule
+%		La Gaceta & Tucumán & 61 & 62 & 60 & 56 & 56 & 55 & 49 & 45 & 40 & 34 \\
+%\midrule
+%		Río Negro & Gral. Roca & 45 & 44 & 42 & 36 & 35 & 35 & 32 & 28 & 26 & 21 \\
+%\midrule
+%		El Día & La Plata & 40 & 41 & 39 & 35 & 35 & 33 & 31 & 26 & 23 & 19 \\
+%\midrule
+%		Diario Uno & Entre Ríos & 36 & 38 & 22 & 34 & 30 & 28 & 26 & 26 & 25 & 11 \\
+%		\bottomrule
+%	\end{tabular}
+%	\caption{Ranking de circulación de diarios. Día domingo, promedio mes de mayo. Primeros 10 títulos (en miles), 2010--2019\footnote{Elaboración propia con datos del IVC.}}
+%	\label{table:diario2}
+%\end{table}
+
+\begin{table}[!ht]
+	\sf\footnotesize
+	\setlength\tabcolsep{4pt}
+	\centering
+	\begin{tabularx}{\textwidth}{
+			l | l |
+			*{10}{>{\centering\arraybackslash}X}
+		}
+		\toprule
+		\textbf{Diario} & \textbf{Localidad} & \textbf{2010} & \textbf{2011} & \textbf{2012} & \textbf{2013} & \textbf{2014} & \textbf{2015} & \textbf{2016} & \textbf{2017} & \textbf{2018} & \textbf{2019} \\
+		\midrule
+		Clarín & AMBA & 664 & 591 & 599 & 570 & 513 & 508 & 487 & 446 & 388 & 396 \\
+		\midrule
+		La Nación & AMBA & 280 & 332 & 360 & 331 & 323 & 320 & 302 & 288 & 209 & 201 \\
+		\midrule
+		Diario Popular & AMBA & 147 & 131 & 135 & 131 & 120 & 118 & 106 & 95 & 85 & 73 \\
+		\midrule
+		La Voz del Int. & Córdoba & 99 & 90 & 90 & 90 & 84 & 81 & 73 & 66 & 59 & 53 \\
+		\midrule
+		Los Andes & Mendoza & 83 & 78 & 77 & 73 & 68 & 65 & 57 & 52 & 49 & 43 \\
+		\midrule
+		La Capital & Rosario & 82 & 80 & 76 & 67 & 62 & 56 & 47 & 41 & 36 & 30 \\
+		\midrule
+		La Gaceta & Tucumán & 61 & 62 & 60 & 56 & 56 & 55 & 49 & 45 & 40 & 34 \\
+		\midrule
+		Río Negro & Gral. Roca & 45 & 44 & 42 & 36 & 35 & 35 & 32 & 28 & 26 & 21 \\
+		\midrule
+		El Día & La Plata & 40 & 41 & 39 & 35 & 35 & 33 & 31 & 26 & 23 & 19 \\
+		\midrule
+		Diario Uno & Entre Ríos & 36 & 38 & 22 & 34 & 30 & 28 & 26 & 26 & 25 & 11 \\
+		\bottomrule
+	\end{tabularx}
+	\caption{Ranking de circulación de diarios. Día domingo, promedio mes de mayo. Primeros 10 títulos (en miles), 2010--2019\footnote{Elaboración propia con datos del IVC.}}
+	\label{table:diario2}
+\end{table}
 
 Con respecto a la circulación de diarios pagos, los títulos auditados registraron en general bajas en su circulación. En los últimos 10 años, \emph{Clarín} redujo sus ventas un 33\%, \emph{Diario Popular} el 48\% y \emph{La Nación} el 37\% (ver Cuadro~\ref{table:diario1}).
 
@@ -396,8 +439,8 @@ Se considera oportuno, en tal sentido, insertar en este espacio la distribución
 
 \begin{figure}[ht] % h = here (aquí), puede combinarse con t (top), b (bottom), p (página flotante)
 	\centering
-	\includegraphics[width=0.7\textwidth]{media/grafico2.png} % ajustar el ancho al 70% del ancho del texto
-	\caption{Gráfico 2: Distribución de las ediciones por años y editoriales}
+	\includegraphics[width=0.9\textwidth]{media/grafico2.png}
+	\caption{Distribución de las ediciones por años y editoriales}
 	\label{fig:graf2}
 \end{figure}
 
@@ -502,7 +545,7 @@ Así como Max Weber caracteriza a la Iglesia como aquella institución que deten
 
 \begin{figure}[ht] % h = here (aquí), puede combinarse con t (top), b (bottom), p (página flotante)
 	\centering
-	\includegraphics[width=0.7\textwidth]{media/diagrama.png} % ajustar el ancho al 70% del ancho del texto
+	\includegraphics[width=0.9\textwidth]{media/diagrama.png}
 	\caption{}
 	\label{fig:diagra}
 \end{figure}
@@ -701,7 +744,7 @@ Es pertinente destacar que el inicio y el fin de las etapas o fases del desarrol
 
 \begin{figure}[ht] % h = here (aquí), puede combinarse con t (top), b (bottom), p (página flotante)
 	\centering
-	\includegraphics[width=0.85\textwidth]{media/grafico1.png} % ajustar el ancho al 70% del ancho del texto
+	\includegraphics[width=1\textwidth]{media/grafico1.png}
 	\caption{Gráfico 1: Representación gráfica de los momentos de la prensa según la taxonomía de Jürgen Habermas (1994)}
 	\label{fig:graf2}
 \end{figure}
@@ -829,12 +872,75 @@ Sin embargo, no debemos perder de vista que lo que existe en el campo es una gra
 A modo de ejemplo, a los efectos de representar esquemáticamente estas nociones, y por el solo hecho de la centralidad que posee, el periodista Jorge Lanata fue hegemónico en el campo en un medio periférico, mientras dirigía el diario \emph{Página/12} y luego, en otro momento de su historia profesional, fue hegemónico en un medio dominante, cuando fue/es el periodista estrella de Clarín, Canal 13 y radio Mitre.
 
 
+%\begin{table}[!ht]
+%\sf\footnotesize\setlength\tabcolsep{4pt}
+%	\centering
+%	\begin{tabular}{l | c | c| c| c| c| c| c| c }
+%		\toprule
+%		& \textbf{Medios masivos y dominantes} & \textbf{Medios alternativos} & \textbf{Firman sus notas} & \textbf{Altos ingresos económicos} & \textbf{Grandes audiencias} & \textbf{Autor  de libros} & \textbf{Presencia en medios AV} & \textbf{Objeto de biografías} \\
+%		\midrule
+%		Hegemónicos dominantes & Sí & No & Sí & Sí & Sí & Sí & Sí & Sí \\
+%		\midrule
+%		Hegemónicos alternativos & No & Sí & Sí & Sí/No & Sí/No & Sí & Sí/No & Sí \\
+%		\midrule
+%		Periféricos dominantes & Sí & No & No & No & Sí & No & No & No \\
+%		\midrule
+%		Periféricos alternativos & No & Sí & No & No & Sí/No & No & No & No \\
+%		\bottomrule
+%	\end{tabular}
+%	\caption{Condiciones mínimas que reúnen los integrantes del campo de acuerdo a sus posiciones en el polígono de fuerzas}
+%\end{table}
+
+
+
+%\begin{table}[!ht]
+%	\sf\footnotesize
+%	\setlength\tabcolsep{4pt}
+%	\centering
+%	\begin{tabularx}{\textwidth}{
+%			l |
+%			*{8}{>{\centering\arraybackslash}X}
+%		}
+%		\toprule
+%		& \textbf{Medios masivos y dominantes}
+%		& \textbf{Medios alternativos}
+%		& \textbf{Firman sus notas}
+%		& \textbf{Altos ingresos económicos}
+%		& \textbf{Grandes audiencias}
+%		& \textbf{Autor de libros}
+%		& \textbf{Presencia en medios AV}
+%		& \textbf{Objeto de biografías} \\
+%		\midrule
+%		Hegemónicos dominantes & Sí & No & Sí & Sí & Sí & Sí & Sí & Sí \\
+%		\midrule
+%		Hegemónicos alternativos & No & Sí & Sí & Sí/No & Sí/No & Sí & Sí/No & Sí \\
+%		\midrule
+%		Periféricos dominantes & Sí & No & No & No & Sí & No & No & No \\
+%		\midrule
+%		Periféricos alternativos & No & Sí & No & No & Sí/No & No & No & No \\
+%		\bottomrule
+%	\end{tabularx}
+%	\caption{Condiciones mínimas que reúnen los integrantes del campo de acuerdo a sus posiciones en el polígono de fuerzas}
+%\end{table}
+
+
 \begin{table}[!ht]
-\sf\footnotesize\setlength\tabcolsep{4pt}
+	\sf\footnotesize
+	\setlength\tabcolsep{4pt}
 	\centering
-	\begin{tabular}{l | c | c| c| c| c| c| c| c }
+	\begin{tabularx}{\textwidth}{
+			>{\raggedright\arraybackslash}X |
+			*{8}{>{\centering\arraybackslash}X}
+		}
 		\toprule
-		& \textbf{Medios masivos y dominantes} & \textbf{Medios alternativos} & \textbf{Firman sus notas} & \textbf{Altos ingresos económicos} & \textbf{Grandes audiencias} & \textbf{Autor  de libros} & \textbf{Presencia en medios AV} & \textbf{Objeto de biografías} \\
+		& \textbf{Medios masivos y dominantes}
+		& \textbf{Medios alternativos}
+		& \textbf{Firman sus notas}
+		& \textbf{Altos ingresos económicos}
+		& \textbf{Grandes audiencias}
+		& \textbf{Autor de libros}
+		& \textbf{Presencia en medios AV}
+		& \textbf{Objeto de biografías} \\
 		\midrule
 		Hegemónicos dominantes & Sí & No & Sí & Sí & Sí & Sí & Sí & Sí \\
 		\midrule
@@ -844,10 +950,42 @@ A modo de ejemplo, a los efectos de representar esquemáticamente estas nociones
 		\midrule
 		Periféricos alternativos & No & Sí & No & No & Sí/No & No & No & No \\
 		\bottomrule
-	\end{tabular}
+	\end{tabularx}
 	\caption{Condiciones mínimas que reúnen los integrantes del campo de acuerdo a sus posiciones en el polígono de fuerzas}
 \end{table}
 
+
+%\begin{landscape}
+%	\begin{table}[!ht]
+%		\sf\footnotesize
+%		\setlength\tabcolsep{4pt}
+%		\centering
+%		\begin{tabularx}{\linewidth}{
+%				>{\raggedright\arraybackslash}X |
+%				*{8}{>{\centering\arraybackslash}X}
+%			}
+%			\toprule
+%			& \textbf{Medios masivos y dominantes}
+%			& \textbf{Medios alternativos}
+%			& \textbf{Firman sus notas}
+%			& \textbf{Altos ingresos económicos}
+%			& \textbf{Grandes audiencias}
+%			& \textbf{Autor de libros}
+%			& \textbf{Presencia en medios AV}
+%			& \textbf{Objeto de biografías} \\
+%			\midrule
+%			Hegemónicos dominantes & Sí & No & Sí & Sí & Sí & Sí & Sí & Sí \\
+%			\midrule
+%			Hegemónicos alternativos & No & Sí & Sí & Sí/No & Sí/No & Sí & Sí/No & Sí \\
+%			\midrule
+%			Periféricos dominantes & Sí & No & No & No & Sí & No & No & No \\
+%			\midrule
+%			Periféricos alternativos & No & Sí & No & No & Sí/No & No & No & No \\
+%			\bottomrule
+%		\end{tabularx}
+%		\caption{Condiciones mínimas que reúnen los integrantes del campo de acuerdo a sus posiciones en el polígono de fuerzas}
+%	\end{table}
+%\end{landscape}
 
 Cuando iniciamos el análisis del \emph{corpus} bibliográfico, presuponíamos que existía cierta coherencia y unanimidad de criterios sobre los valores y principio de legitimidad del campo periodístico, sin importar si eran hegemónicos o periféricos y si trabajaban en un medio dominante o alternativo. Sin embargo, el análisis del \emph{corpus} nos permitió discernir tres categorías de periodistas de acuerdo a los valores y principios que rigen su pertenencia al campo, y dos subcategorías que, sin ser propiamente de periodistas, usufructúan su condición y actúan como tales en situaciones determinadas. A los fines de identificarlas proponemos la siguiente denominación, que intenta sintetizar sus principales características:
 
@@ -932,8 +1070,100 @@ Si bien esta categoría de \emph{periodista intelectual}, como el resto de las c
 
 El análisis de la producción ensayística ordenado en el tiempo permitirá apreciar el encadenamiento del debate al interior del campo periodístico y, simultáneamente, la existencia de relaciones causales entre los actores del conflicto, en algunos casos motivados por sus casas periodísticas y, en otros, por el fragor de las batallas políticas.
 
+
+
+%\begin{longtable}{|p{4cm}|p{2.1cm}|c|p{2.9cm}|}
+%	\sf\footnotesize\setlength\tabcolsep{4pt}
+%	\caption{Universo de los libros considerados} \\
+%	\hline
+%	\textbf{Título y año de edición} & \textbf{Editorial} & \textbf{Nº} & \textbf{Autor(es)} \\
+%	\hline
+%	\endfirsthead
+%
+%	\multicolumn{4}{c}%
+%	{{\bfseries \tablename\ \thetable{} -- continuación}} \\
+%	\hline
+%	\textbf{Título y año de edición} & \textbf{Editorial} & \textbf{Nº} & \textbf{Autor(es)} \\
+%	\hline
+%	\endhead
+%
+%	\hline \multicolumn{4}{|r|}{{Continúa en la próxima página}} \\
+%	\hline
+%	\endfoot
+%
+%	\hline
+%	\endlastfoot
+%
+%	\multicolumn{4}{|c|}{\textbf{2009}} \\
+%	\hline
+%	Diario de guerra. Clarín, el gran engaño argentino & Gárgola & 1 & Claudio Díaz \\
+%	\hline
+%
+%	\multicolumn{4}{|c|}{\textbf{2010}} \\
+%	\hline
+%	678. La creación de otra realidad & Paidós/Planeta & 2 & María Julia Oliván y Pablo Alabarces \\
+%	Silencio por sangre & Miradas al sur & 3 & Daniel Cecchini y Jorge Mancinelli \\
+%	\hline
+%
+%	\multicolumn{4}{|c|}{\textbf{2011}} \\
+%	\hline
+%	Pecado original & Planeta & 4 & Graciela Mochkofsky \\
+%	Perón y los medios de comunicación & Sudamericana / Penguin Random House & 5 & Pablo Sirvén \\
+%	K Letra bárbara & Sudamericana / Penguin Random House & 6 & Orlando Barone \\
+%	El kirchnerismo póstumo & Ediciones B & 7 & Jorge Asís \\
+%	Patria o medios & Sudamericana / Penguin Random House & 8 & Edi Zunino \\
+%	Periodismo de infantería & Clarinete & 9 & Virginia Márquez y Aníbal Ces \\
+%	\hline
+%
+%	\multicolumn{4}{|c|}{\textbf{2012}} \\
+%	\hline
+%	Lanata & Margen Izquierdo & 10 & Luis Majul \\
+%	\hline
+%
+%	\multicolumn{4}{|c|}{\textbf{2013}} \\
+%	\hline
+%	Aquel periodismo. Medios y periodistas en la Argentina 1965--2012 & Edhasa & 11 & Daniel Muchnik \\
+%	Víctor Hugo, una historia de coherencia y convicción & Ediciones al arco & 12 & Julián Capasso \\
+%	El inventor del peronismo & Planeta & 13 & Silvia Diana Mercado \\
+%	Máquinas de captura. Los medios concentrados en tiempos del kirchnerismo & Colihue & 14 & Daniel Rosso \\
+%	Clarín, el gran diario argentino: una historia & Planeta & 15 & Martín Sivak \\
+%	Años de rabia & Ediciones B & 16 & Eduardo Blaustein \\
+%	Converso & Margen Izquierdo & 17 & Pablo Sirvén \\
+%	El pequeño Timerman & Ediciones B & 18 & Gabriel Levinas \\
+%	\hline
+%
+%	\multicolumn{4}{|c|}{\textbf{2014}} \\
+%	\hline
+%	Nuevos desafíos del periodismo & Ariel / Paidós / Planeta-ADEPA & 19 & Daniel Dessein y Gastón Roitberg (Compiladores) \\
+%	Periodistas en el barro & Sudamericana / Penguin Random House & 20 & Edi Zunino \\
+%	Tiempos turbulentos & Ariel / Paidós / Planeta-ADEPA & 21 & Carlos Jornet y Daniel Dessein \\
+%	Télam, el hecho maldito del periodismo argentino & Ediciones TXT & 22 & Ariel Bargach y Mariano Suárez \\
+%	(In)justicia mediática & Sudamericana / Penguin Random House & 23 & Darío Villarruel \\
+%	Audiencia con el diablo & Aguilar & 24 & Víctor Hugo Morales \\
+%	Las locuras del Rey Jorge & Ediciones B & 25 & Eduardo Blaustein \\
+%	Guerras mediáticas & Sudamericana / Penguin Random House & 26 & Fernando Ruiz \\
+%	\hline
+%
+%	\multicolumn{4}{|c|}{\textbf{2015}} \\
+%	\hline
+%	Quiénes fuimos en la era k & Planeta & 27 & Jorge Fontevecchia \\
+%	El Perro & Ediciones B & 28 & Hernán López Echagüe \\
+%	La inconclusa ley de medios: la historia menos contada & Continente & 29 & Néstor Piccone \\
+%	Grandes y pequeñas mentiras que nos contaron & Planeta & 30 & Marcos Novaro y Marcelo Birmajer \\
+%	Doble agente. La biografía inesperada de Horacio Verbitsky & Sudamericana / Penguin Random House & 31 & Gabriel Levinas \\
+%	Mentime que me gusta & Aguilar & 32 & Víctor Hugo Morales \\
+%	El rebenque del diablo & Colihue & 33 & Víctor Hugo Morales \\
+%	Todos contra Branca contra todos & Ediciones B & 34 & Diego Brancatelli \\
+%	Diez ironías sobre la libertad de expresión & CTP & 35 & Autores Varios \\
+%	Clarín, la era Magnetto & Planeta & 36 & Martín Ernesto Sivak \\
+%	Periodistas deportivos & Ediciones al arco & 37 & Walter Vargas \\
+%\end{longtable}
+
+{\sf\footnotesize % Abre un grupo con fuente sans serif y tamaño pequeño
+
+	\setlength\tabcolsep{4pt}
+
 \begin{longtable}{|p{4cm}|p{2.1cm}|c|p{2.9cm}|}
-	\sf\footnotesize\setlength\tabcolsep{4pt}
 	\caption{Universo de los libros considerados} \\
 	\hline
 	\textbf{Título y año de edición} & \textbf{Editorial} & \textbf{Nº} & \textbf{Autor(es)} \\
@@ -1018,8 +1248,7 @@ El análisis de la producción ensayística ordenado en el tiempo permitirá apr
 	Clarín, la era Magnetto & Planeta & 36 & Martín Ernesto Sivak \\
 	Periodistas deportivos & Ediciones al arco & 37 & Walter Vargas \\
 \end{longtable}
-
-
+}
 
 \section{Periodización}
 
@@ -2409,228 +2638,8 @@ Iniciamos este trabajo bajo la premisa que el conflicto generaba el riesgo de fr
 
 Septiembre de 2020
 
-\chapter{Bibliografía}
+\printbibliography[title={Referencias bibliográficas}]
 
-Alberdi, Juan B. (2015): Cartas sobre la prensa y la política militante de la República Argentina (cartas quillotanas). Biblioteca Saavedra Fajardo, Madrid. {[}1853{]}.
-
-Alonso, Paula (1997): ``En la primavera de la historia'': el discurso político del roquismo de la década del ochenta a través de su prensa''. En: Boletín del Instituto de Historia Argentina y Americana ``Dr. Emilio Ravignani'', Tercera serie, N° 15, 1er. Semestre de 1997, Buenos Aires.
-
-Alonso, Paula (2004): ``La tribuna nacional y Sud-América: tensiones ideológicas en la construcción de la ``Argentina moderna'' en la década de 1880''. En: Construcciones impresas. Buenos Aires: Fondo de Cultura Económica.
-
-Altamirano, Carlos y Myers, Jorge (2008) Historia de los intelectuales en América Latina. Tomo I. Buenos Aires: Katz Editores.
-
-Altheide, D. y Rasmussen, P.(1976) Becoming News. A Study of Two Newsrooms, en Sociology of works an occupations, Vol. 3 N. 2, Pags. 223-226.
-
-Amado, Adriana (2016) El periodismo por los periodistas. Perfiles profesionales en las democracias de América Latina. Buenos Aires: Konrad-Adenauer-Stiftung e. v.
-
-Anguita Eduardo (2002) Grandes hermanos. Alianzas y negocios ocultos de los dueños de la información. Buenos Aires: Colihue.
-
-Arrueta, C. (2010). ¿Qué realidad construyen los diarios? Una mirada desde el periodismo en contextos de periferia. Buenos Aires: La Crujía Ediciones.
-
-Arrueta, Cesar (2013) Identidad(es) periodística(s) Una mirada desde los escenarios de tensión, en Revista:~Tram{[}p{]}as de la Comunicación y la Cultura; Núm 76, ISSN:~2314-274X pp. 81-87 Recuperado 05/03/2017: \url{http://sedici.unlp.edu.ar/handle/10915/37153}
-
-Auza, Néstor T. (1978) El periodismo de la Confederación. Buenos Aires: Eudeba.
-
-Baldoni (2012) Kirchnerismo, mediatización e identidades políticas: reflexiones en torno a la política, el periodismo y el discurso . 2003-2008 / Maestri Mariana ... {[}et.al.{]} ; coordinado por Irene Lis Gindin ; 1a ed. - Rosario: UNR Editora. Editorial de la Universidad Nacional de Rosario, 2014.
-
-Barbier, Frédéric y Bertho-Lavenir, Catherine (1999) Historia de los medios deDiderot a Internet, Buenos Aires: Colihue.
-
-Bargach, A. y Suárez, M. (2014). Télam, el hecho maldito del periodismo argentino. Una historia narrada por sus trabajadores. Buenos aires: Ediciones TXT.
-
-Barone, Orlando (2011) K Letra bárbara. Buenos Aires: Sudamericana.
-
-Barrera Carlos (2004) Historia del Periodismo Universal. Barcelona: Ariel.
-
-Beliz y Zuleta Puceiro (1998) La cultura profesional del periodismo argentino en Cuadernos Autrales de Comunicación 1. Buenos Aires: Universidad Austral
-
-Benhamou, F. (2015). El libro en la era digital: papel, pantallas y otras derivas. Ciudad Autónoma de Buenos Aires: Editorial Paidós.
-
-Bernays, Edward (2008) Propaganda. Madrid: Melusina
-
-Blaustein, Eduardo (2014) Las locuras del Rey Jorge. Buenos Aires: Ediciones B.
-
-Blaustein, Eduardo. (2013). Años de rabia. El periodismo, los medios y las batallas del kirchnerismo. Buenos Aires: Ediciones B.
-
-Borderia Ortiz, Enrique; Laguna Platero, Antonio; Martínez Gallego, Francesc (2015) Historia social de la comunicación: mediaciones y públicos. Madrid, Síntesis.
-
-Borges-Bioy Casares (1967). Crónicas de H. Bustos Domecq. Buenos Aires: Losada.
-
-Borrat, H. (2009). El periódico, actor político. Barcelona: Editorial Gustavo Gili.
-
-Bourdieu, P. (2008). Cuestiones de Sociología. Madrid: Ediciones Itsmo.
-
-Bourdieu, P. y Wacquant Loïc (2008) Una invitación a la Sociología reflexiva, Buenos Aires: Siglo XXI Editores.
-
-Bourdieu, Pierre (1997) Sobre la televisión. Barcelona: Anagrama.
-
-Bourdieu, Pierre (1999). La miseria del mundo, Buenos Aires: Fondo de Cultura Económica.
-
-Bourdieu, Pierre (2002). Campo de poder, campo intelectual, Barcelona: Montressor
-
-Brancatelli, Diego (2015). Todos contra BRANCA contra todos. Buenos Aires: Ediciones B
-
-Bücher, K. (1917) Die Anfänge des Zeitunswesens, en Die EnstehungderVolkswirtschaft, Vol I, Berlín.
-
-Capasso, J. (2013). Victor Hugo. Una historia de coherencia y convicción. Buenos Aires: Ediciones Al Arco.
-
-Castells, M. (1998). La era de la información. Economía, sociedad y cultura. Vol 2 El poder de la identidad. Madrid: Alianza Editorial.
-
-Cecchini, D. y Mancinelli, J. (2010). Silencio por sangre. La verdadera historia de Papel Prensa. Buenos Aires: Perito Mundo.
-
-Creswell, J. W. (1994). Research Design. Qualitative \& Quantitative Approaches. London: Sage.
-
-De Diego, J. (2012).~Concentración económica, nuevos editores, nuevos agentes. Primer Coloquio Argentino de Estudios sobre el Libro y la Edición, 31 de octubre, 1 y 2 de noviembre de 2012, La Plata, Argentina. EN: Actas. La Plata: UNLP-FAHCE.
-
-De Marco, Miguel Ángel (2006) Historia del periodismo argentino. Desde los orígenes hasta el Centenario de Mayo. Buenos Aires: EDUCA.
-
-Dessein, D y Roitberg G. (Comps.). (2014). Nuevos desafíos del periodismo. Buenos Aires: Ariel.
-
-Díaz Claudio (2009) Diario de guerra. Clarín el gran engaño argentino. Buenos Aires: Gárgola
-
-Díaz, César (2012). Comunicación y Revolución. 1759-1810. La Plata: Universidad Nacional de La Plata -- Ediciones EPC.
-
-Donsbach Wolfgang (2014). Cómo entender al periodismo : selección de la obra de Wolfgang Donsbach; compilado por Fernando J. Ruiz. - 1a ed. - Ciudad Autónoma de Buenos Aires : Konrad Adenauer Stiftung
-
-Fontevecchia, J. (2015). \href{https://www.boutiquedellibro.com.ar/9789504946175/Quienes+Fuimos+En+La+Era+K/}{Quiénes fuimos en la era k}. Buenos Aires. Planeta
-
-Fontevecchia, J. (2018) \url{https://www.perfil.com/noticias/medios/fontevecchia-quienes-critican-a-los-medios-estan-criticando-al-sitema-democratico.phtml}. Seminario ``Telecomunicaciones, Medios Privados y Públicos en la era de la Convergencia'', organizado por el Sistema Federal de Medios y Contenidos Públicos y la Embajada Británica en Argentina. 05/11/18
-
-Fontevecchia, J. (2018). Periodismo y Verdad. C.A.B.A: Editorial Paidós.
-
-Fraga Roserndo (comp.) (1997) Autopercepción del periodismo en la Argentina. Buenos Aires: Editorial de Belgrano.
-
-Gans (1979) Deciding What´s News, Newsweek an Time, Nueva York: PantheonBooks
-
-Gil Bellota, Carlos J. (2012) Periodismo, metaperiodismo y bienes públicos. \url{https://www.datanalytics.com/2012/09/07/periodismo-metaperiodismo-y-bienes-publicos/}
-
-Gindin Irene Lis (2014) Identidades fragmentadas: apuntes teóricos sobre las identidades políticas, en Kirchnerismo, mediatización e identidades políticas: reflexiones en torno a la política, el periodismo y el discurso .2003-2008. Rosario: UNR Editora.
-
-Glaser, B y Strauss, A (1967) The discovery of gronunded theory strategies for qualitative reserarch. New York: Aldine Publishing Company.
-
-Glaser, B. (1978),~ Theoretical Sensitivity. San Francisco, University of California, 1978.~Traducción: Ada Freytes Frey.
-
-Golding-Elliott (1979) Making the news, Londres: Longman
-
-González, Gustavo (2011) Noticias Bajo Fuego. Buenos Aires: Planeta
-
-Habermas, J. (2006). Historia y Crítica de la Opinión Pública. Barcelona: Editorial Gustavo Gili.
-
-Habermas, Jurguen (1982) Teoría de la Acción Comunicativa, Madrid, Ed.: Taurus
-
-Halperín, Jorge (2007), Noticias del poder, Buenas y malas artes del periodismo político. Buenos Aires: Aguilar.
-
-Humphreys, Peter (2008) Subvenciones a la prensa en Europa. Una visión histórica. Extraído de Revista \href{https://dialnet.unirioja.es/servlet/revista?codigo=6769}{Telos: Cuadernos de comunicación e innovación},~ISSN~0213-084X,~\href{https://dialnet.unirioja.es/ejemplar/195612}{Nº. 75, 2008},~págs.~71-84
-
-Jorge Asís (2011) El kirchnerismo póstumo. Buenos Aires: Ediciones B
-
-Jornet, C. y Dessein, D (Comps.). (2014). Tiempos Turbulentos. Medios y libertad de expresión en la Argentina de hoy. Buenos Aires: Ariel.
-
-Levinas, Gabriel (2013) El pequeño Timerman. Buenos Aires: Ediciones B
-
-Levinas, Gabriel (2015) Doble agente. La biografía inesperada de Horacio Verbitsky. Buenos Aires: Sudamericana
-
-Llonto, Pablo. (2007). La Noble Ernestina. Ciudad Autónoma de Buenos Aires: Editorial Punto de Encuentro
-
-Lopez Echagüe, Hernan (2015) El perro. Horacio Verbitsky, un animal político. Buenos Aires: Ediciones B
-
-Majul Luis (1999) Periodistas. Qué piensan y que hacen los que desiden en los medios. Buenos Aires: Editorial Sudamericana.
-
-Majul, L. (2012). Lanata. Buenos Aires: Margen Izquierdo
-
-Márquez, V. y Ces, A. (2010). Periodismo de infantería. Buenos Aires: Clarinete.
-
-Martini, Stella;~Luchessi, Lila (2004). Los que hacen la noticia: periodismo, información y poder. Buenos Aires: Biblos
-
-Mastrini y Becerra (2017). Medios en guerra. Balance, crítica y desguace de las políticas de comunicación 2003-2016. CABA: Biblos
-
-Mauss, M. (2009). Ensayo sobre el don. Forma y función del intercambio en las sociedades arcaicas. Buenos Aires: Katz Editores.
-
-Meneses Fernández, \href{https://www.researchgate.net/profile/Maria_Meneses_Fernandez}{M. Dolores (2010)} Aportaciones del metaperiodismo al estudio de la prensa y del periodismo en contextos históricos delimitados. La Transición democrática, en Zer, Vol. 15 - Núm. 29, ISSN: 1137-1102, pp. 175-191
-
-Meneses Fernández, María Dolores (2008). Noticias sobre la prensa. Imagen propia en la Transición democrática española. Madrid: Ediciones Fragua.
-
-Mercado, Silvia Diana (2012) El inventor del peronismo. Buenos Aires: Planeta
-
-Mochkofsky, G. (2011). Pecado original. Clarín, los Kirchner y la lucha por el poder. Buenos Aires: Planeta.
-
-Molina, Eugenia (2012) El poder de la opinión pública. Trayectos y avatares de una\\
-nueva cultura política en el Río de la Plata, 1800-1852. Santa Fe: UNL.
-
-Morales, Victor Hugo (2015) \href{http://www.cuspide.com/9789876842686/El+Rebenque+Del+Diablo/}{El rebenque del diablo}. Buenos Aires: Colihue
-
-Morales, Victor Hugo (2015) Mentime que me gusta. Buenos Aires: Aguilar.
-
-Moyano, Julio (1996) Prensa y Modernidad. Paraná: CEPCE -- EDUNER.
-
-Moyano, Julio (2008) Prensa, modernidad y transición. Buenos Aires, UBA, Facultad de Ciencias Sociales.
-
-Moyano, Julio (2013): ``Seis años decisivos: La Revolución de Mayo y la construcción de la prensa moderna en el Río de la Plata''. En: Pineda, Adriana, y Gantús, Fausta (Comp.): Miradas y acercamientos a la prensa decimonónica. México: Universidad Michoacana de San Nicolás de Hidalgo/Red de Historiadores de la Prensa y el Periodismo en Iberoamérica.
-
-Muchnik, Daniel (2012) Aquel periodismo: política, medios y periodistas en la Argentina, Buenos Aires: Edhasa
-
-Novaro, M. y Birmajer, M. (2015). Grandes y pequeñas mentiras que nos contaron. La guerra contra la prensa. Qué nos dejan doce años de acoso al periodismo. Buenos Aires: Planeta.
-
-Ojeda Alejandra y Moyano Julio (2019): ``En la forja de un diario moderno''. En: Ojeda, Alejandra, Moyano Julio y Levenberg Rubén: Prácticas de oficio e innovación tecnológica. Tensiones y estrategias en dos momentos clave del diario argentino La Nación. Buenos Aires: IEALC -- UBA.
-
-Ojeda, Alejandra (2010) ``De la Arenga Faccional al Reclame Publicitario''. En: revista Pensar la Publicidad, nº 2, Barcelona.
-
-Oliván, M. J. y Alabarces, P. (2010). 6 7 8. La creación de otra realidad. Buenos Aires: Paidós.
-
-Piccone, N. (2015). La inconclusa Ley de Medios. La historia menos contada. Buenos Aires: Ediciones Continente.
-
-Ramonet, I. (2011). La explosión del periodismo. Internet pone en jaque a los medios tradicionales. Buenos Aires: Capital Intelectual.
-
-Rivera, Jorge (1990) ``De la facción al folletín''. En: Diario Clarín, suplemento cultural Cultura y Nación, 23 de agosto.
-
-Rivera, Jorge (1998) El escritor y la industria cultural. Buenos Aires: Atuel.
-
-Rosso, Daniel (2012) Máquinas de captura. Los medios concentrados en tiempos del kirchnerismo. Buenos Aires: Colihue.
-
-Rotemberg, Abrasha (1999), Historia confidencia. La Opinión y otros olvidos. Buenos Aires: Editorial Sudamericana
-
-Ruiz, F. (2014). Guerras mediáticas. Las grandes batallas periodísticas desde la Revolución de Mayo hasta la actualidad. Ciudad Autónoma de Buenos Aires: Sudamericana.
-
-Saferstein, E. (2016). ``La década publicada'' Los bestsellers políticos y sus editores. Producción de libros, difusión de temas e intervención pública en el mercado editorial argentino (2003-2015), Tesis de doctorado, Universidad de Buenos Aires.
-
-Schlesinger, (1978) Putting ``reality'' together. BBC news, Londres: Constable.
-
-Shumway, Nicolás (2003) La invención de la Argentina. Buenos Aires: Emecé.
-
-Siebert F. y Peterson T. (1967) Tres teorías sobre la prensa en el mundo capitalista. Buenos Aires: De la Flor.
-
-Sirvén, Pablo (2011) Perón y los medios de comunicación. Buenos Aires: Sudamericana.
-
-Sirvén, Pablo (2013) Converso. Buenos Aires: Margen izquierdo.
-
-Sivak, M. (2013). Clarín, el gran diario argentino. Una historia. Buenos Aires: Planeta.
-
-Sivak, Martín (2015) Clarín, La era Magnetto. Buenos Aires: Planeta.
-
-Stefoni Jorge Andrés. (2013) Controversias contemporáneas en el periodismo argentino. Los nudos de la política y el debate sobre la condición profesional (2009-2011) Revista Astrolabio, Núm 10 Nueva Época ISSN 1668-7515 pp. 389 -- 419.
-
-Strauss, A. y Corbin, J. (1998). Basics of Qualitative Research: Techniques and Procedures for Developing Grounded Theory. London: Sage.
-
-Ure, Mariano y Schwarz Christian (2014) Las identidades del periodismo argentino : estudio cualitativo de la percepción de los propios periodistas, Ciudad Autónoma de Buenos Aires: Konrad Adenauer Stiftung.
-
-Vargas, Walter (2015) Periodistas depordivos. Buenos Aires: Ediciones al arco.
-
-Verón, E. (1987). Construir el acontecimiento. Buenos Aires: Gedisa.
-
-\href{http://www.cuspide.com/resultados.aspx?c=VILLARRUEL+DARIO\&por=AutorEstricto\&aut=291343\&orden=fecha}{Villarruel} Dario (2014) (In)justicia mediática. Buenos Aires: Sudamericana.
-
-Vommaro, G. y Baldoni, M. (2012). Bernardo y Mariano: las transformaciones del periodismo político en Argentina, de los años ochenta a los noventa, en Mediálogos, Revista de Comunicación Social, nº 2, Universidad Católica del Uruguay, Montevideo, pp. 59-82.
-
-Weber, Max (1992) Para una sociología de la prensa en \href{http://bddoc.csic.es:8080/ver/ISOC/revi/0034.html}{Revista Española de Investigaciones Sociológicas} nº 57 ISSN:~0210-5233. (pp. 251-259) Madrid.
-
-Wiñazki, Miguel (comp.) (2000) Puro periodismo. Buenos Aires: Editorial de Belgrano.
-
-Wolf, M. (2004). La investigación de la comunicación de masas: Crítica y perspectivas. Ciudad Autónoma de Buenos Aires: Paidós.
-
-Zukernik Eduardo (2006) , Hechos y noticias. Claroscuros de la prensa gráfica en la Argentina. Buenos Aires: La Crujía Ediciones - Konrad Adenauer Stiftung.
-
-Zunino, E. (2011) Patria o medios. Buenos Aires: Sudamericana.
-
-Zunino, E. (2014). Periodistas en el barro. Peleas, aprietes, traiciones y negocios. Miserias y razones de la guerra mediática en la Argentina reciente Buenos Aires: Sudamericana.
-
+\include{./artcap/indiceautores.tex}
 
 \end{document}
